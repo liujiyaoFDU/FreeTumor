@@ -67,6 +67,8 @@ sh Syn_train.sh
 sh Free_train.sh
 ```
 
+Notably, currently we provide codes to train a generalist model, which can synthesize liver tumors, pancreas tumors, and kidney tumors (output by different channels). If you want to train specialist models for specific types of tumors (e.g., one model for liver tumors and another model for pancreas tumors), you need to modify the organ labels manually and check the codes [here]. 
+
 For synthesis training, you can modify number of GPUs in 'Syn_train.sh' script. You can modify the number of training epochs, batch size, or other parameters in 'Syn_train.py'.
 
 After synthesis training, we use the generative model for tumor synthesis during segmentation training. For the parameters of segmentation training:
