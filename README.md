@@ -1,2 +1,4 @@
-# FreeTumor
-Synthesize and segment tumors at scale. A simple baseline for scaling up tumor segmentation datasets.
+<div align="center">
+<h1>FreeTumor: Synthesize and Segment tumors at Scale</h1>
+
+</div>
