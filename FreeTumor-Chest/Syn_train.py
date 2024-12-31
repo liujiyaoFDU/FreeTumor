@@ -61,8 +61,8 @@ parser.add_argument("--max_epochs", default=100, type=int, help="max number of t
 parser.add_argument("--warmup_epochs", default=5, type=int, help="number of warmup epochs")
 parser.add_argument("--val_every", default=1, type=int, help="validation frequency")
 
-parser.add_argument("--batch_size", default=1, type=int, help="number of batch size")
-parser.add_argument("--sw_batch_size", default=1, type=int, help="number of sliding window batch size")
+parser.add_argument("--batch_size", default=4, type=int, help="number of batch size")
+parser.add_argument("--sw_batch_size", default=2, type=int, help="number of sliding window batch size")
 parser.add_argument("--optim_lr", default=1e-4, type=float, help="optimization learning rate")
 parser.add_argument("--optim_name", default="adamw", type=str, help="optimization algorithm")
 parser.add_argument("--reg_weight", default=1e-5, type=float, help="regularization weight")
