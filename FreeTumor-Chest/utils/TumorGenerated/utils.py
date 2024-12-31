@@ -344,10 +344,7 @@ def get_tumor(args, volume_scan, mask_scan, tumor_type, texture, num_tumor=None,
     mask_scan_numpy = mask_scan.clone().data.cpu().numpy()
     geo_mask = get_fixed_geo(mask_scan_numpy, tumor_type, num_tumor)
 
-    if args.data == 'lung':
-        sigma = np.random.uniform(0.5, 0.8)
-    else:
-        sigma = np.random.uniform(1, 2)
+    sigma = np.random.uniform(1, 2)
 
     if difference is None:
         difference = torch.rand(1)
@@ -383,16 +380,6 @@ def get_tumor(args, volume_scan, mask_scan, tumor_type, texture, num_tumor=None,
 
 def SynthesisTumor(args, volume_scan, mask_scan, tumor_type, texture, num_tumor=None, difference=None):
     mask_scan_numpy = mask_scan.data.cpu().numpy()
-
-    # # for speed_generate_tumor, we only send the liver part into the generate program
-    # x_start, x_end = np.where(np.any(mask_scan_numpy, axis=(1, 2)))[0][[0, -1]]
-    # y_start, y_end = np.where(np.any(mask_scan_numpy, axis=(0, 2)))[0][[0, -1]]
-    # z_start, z_end = np.where(np.any(mask_scan_numpy, axis=(0, 1)))[0][[0, -1]]
-    #
-    # # shrink the boundary
-    # x_start, x_end = max(0, x_start + 1), min(mask_scan.shape[0], x_end - 1)
-    # y_start, y_end = max(0, y_start + 1), min(mask_scan.shape[1], y_end - 1)
-    # z_start, z_end = max(0, z_start + 1), min(mask_scan.shape[2], z_end - 1)
 
     # For online generation !!!
     x_start, x_end = 0, mask_scan_numpy.shape[0]
