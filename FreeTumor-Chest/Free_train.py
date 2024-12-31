@@ -80,7 +80,6 @@ parser.add_argument("--workers", default=16, type=int, help="number of workers")
 parser.add_argument("--feature_size", default=48, type=int, help="feature size")
 parser.add_argument("--in_channels", default=1, type=int, help="number of input channels")
 
-parser.add_argument("--use_normal_dataset", default=True, help="use monai Dataset class")
 parser.add_argument("--a_min", default=-1000.0, type=float, help="a_min in ScaleIntensityRanged")
 parser.add_argument("--a_max", default=500.0, type=float, help="a_max in ScaleIntensityRanged")
 parser.add_argument("--b_min", default=0.0, type=float, help="b_min in ScaleIntensityRanged")
@@ -102,8 +101,7 @@ parser.add_argument("--lrschedule", default="warmup_cosine", type=str, help="typ
 parser.add_argument("--resume_ckpt", action="store_true", help="resume training from pretrained checkpoint")
 parser.add_argument("--smooth_dr", default=1e-6, type=float, help="constant added to dice denominator to avoid nan")
 parser.add_argument("--smooth_nr", default=0.0, type=float, help="constant added to dice numerator to avoid zero")
-parser.add_argument("--use_checkpoint", default=True, help="use gradient checkpointing to save memory")
-parser.add_argument("--use_ssl_pretrained", default=True, help="use VoCo pretrained weights")
+parser.add_argument("--use_checkpoint", action="store_true", help="use gradient checkpointing to save memory")
 parser.add_argument("--spatial_dims", default=3, type=int, help="spatial dimension of input data")
 parser.add_argument("--squared_dice", action="store_true", help="use squared Dice")
 
@@ -159,7 +157,7 @@ def main_worker(gpu, args):
     )
 
     if args.use_ssl_pretrained:
-        pretrained_path = './pretrained/VoCo_B.pt'
+        pretrained_path = './pretrained/VoCo_B_SSL_head.pt'
         model_dict = torch.load(pretrained_path, map_location=torch.device('cpu'))
         model = load(model, model_dict)
         print("Using VoCo pretrained backbone weights !!!!!!!")
