@@ -126,7 +126,9 @@ This work is highly inspired by series of [pioneering works](https://github.com/
 
 ## Citation
 
-Our preliminary version is on [arxiv](https://arxiv.org/abs/2406.01264), while the results are different from this repo. If you find our codes or datasets useful, please consider to leave a star and cite our paper as follows, we would be highly grateful (^o^)/. In addition, some previous papers that contributed to our work are listed for reference.
+Our preliminary version is on [arxiv](https://arxiv.org/abs/2406.01264), while the results are different from this repo. If you find our codes or datasets useful, please consider to leave a star and cite our paper as follows, we would be highly grateful (^o^)/. 
+
+In addition, some previous papers that contributed to our work are listed for reference.
 
 ```bibtex
 @article{wu2024freetumor,
