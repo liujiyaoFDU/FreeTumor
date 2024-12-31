@@ -52,7 +52,7 @@ def train_epoch(model, loader, optimizer, scheduler, scaler, epoch, loss_func, a
             param.grad = None
 
         with autocast(enabled=args.amp):
-            if args.freesyn:
+            if args.task == 'freesyn':
                 with torch.no_grad():
                     syn_image, syn_label = syn_data(image, label, Tgan, args)
             else:
