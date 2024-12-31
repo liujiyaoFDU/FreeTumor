@@ -42,7 +42,7 @@ parser.add_argument("--logdir", default="runs/logs", type=str, help="directory t
 parser.add_argument(
     "--baseline_seg_dir", default="./baseline/model_covid_voco160k.pt", type=str, help="pretrained checkpoint directory"
 )
-parser.add_argument("--data", default="covid", type=str, help="data name: covid or lung")
+parser.add_argument("--data", default="covid", type=str, help="data name: covid")
 
 parser.add_argument("--out_channels", default=3, type=int, help="number of output channels")
 parser.add_argument(
