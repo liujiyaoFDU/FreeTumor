@@ -1,7 +1,7 @@
 now=$(date +"%Y%m%d_%H%M%S")
-logdir=runs/logs_free_covid_onlysyn
+logdir=runs/logs_free_covid
 data=covid
-task=onlylabeled
+task=freesyn
 baseline_seg_dir=./baseline/model_covid_voco160k.pt
 TGAN_checkpoint=./runs/logs_syn_covid/model_final.pt
 
