@@ -191,7 +191,6 @@ def main():
 
             lab = batch_data["label"]
             lab = lab.cuda()
-            lab = transform_label(lab)
 
             name = batch_data['name'][0]
 
@@ -254,17 +253,6 @@ def get_3D_position(label):
 
     print(x_end - x_start, y_end - y_start, z_end - z_start)
     return x_start, x_end, y_start, y_end, z_start, z_end
-
-
-def transform_label(label):
-    lab = label.clone()
-    lab[label > 0] = 0
-
-    # kidney 2, 3
-    lab[label == 2] = 5
-    lab[label == 3] = 5
-
-    return lab
 
 
 def syn_data(img, lab, Tgan, args):
