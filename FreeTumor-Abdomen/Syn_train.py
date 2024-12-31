@@ -37,7 +37,7 @@ resource.setrlimit(resource.RLIMIT_NOFILE, (8192, rlimit[1]))
 print('Setting resource limit:', str(resource.getrlimit(resource.RLIMIT_NOFILE)))
 
 
-parser = argparse.ArgumentParser(description="Swin UNETR segmentation pipeline")
+parser = argparse.ArgumentParser(description="FreeTumor synthesis training")
 parser.add_argument("--checkpoint", default=None, help="start training from saved checkpoint")
 parser.add_argument("--logdir", default="logs", type=str, help="directory to save the tensorboard logs")
 parser.add_argument(
