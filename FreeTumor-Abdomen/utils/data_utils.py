@@ -21,6 +21,7 @@ from monai.transforms import *
 from torch.utils.data import DataLoader, ConcatDataset
 from utils.data_trans import *
 
+
 root = '/data/FreeTumor/'
 cache_dir = '/data/FreeTumor/cache'
 
@@ -186,14 +187,14 @@ def get_abdomen_ds(args, filter_labels=None):
     unlabeled_ds = ConcatDataset(
         [
          BTCV_ds, flare_ds, Amos_ds, WORD_ds,
-         # flare23_ds,
+         flare23_ds,
          IRCADb_ds,
          chaos_ds, TCIA_PANC_ds,
          spleen_ds, colon_ds,
-         # PANORAMA_ds,
-         # abdomen1k_ds,
-         # atlas_ds,
-         # MELA_ds,
+         PANORAMA_ds,
+         abdomen1k_ds,
+         atlas_ds,
+         MELA_ds,
          ])
     return unlabeled_ds
 
@@ -229,7 +230,7 @@ def get_loader_lits(args):
         [lits_append_train_ds,
          unlabeled_ds
          ])
-    
+
     if args.task == 'onlylabeled':
         train_ds = lits_train_ds
 
