@@ -30,7 +30,6 @@ from monai.metrics import DiceMetric
 from monai.networks.nets import SwinUNETR
 from monai.transforms import Activations, AsDiscrete, Compose
 from monai.utils.enums import MetricReduction
-# os.environ['CUDA_VISIBLE_DEVICES'] = "5"
 
 import resource
 rlimit = resource.getrlimit(resource.RLIMIT_NOFILE)
