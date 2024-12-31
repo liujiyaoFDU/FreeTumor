@@ -56,7 +56,7 @@ The path of datasets should be organized as:
 First, you need to train a baseline segmentation model as the discriminator for synthesis training (or you can download ours). The baseline segmentation model is placed in './baseline/'
 ```
 ├── baseline
-    ├── model_baseline_segmentor.pt # for abdomen 7 output channels as above
+    ├── model_baseline_segmentor.pt ### for abdomen, 7 output channels
     └── model_covid_voco160k.pt
 ```
 
@@ -86,7 +86,22 @@ After synthesis training, we use the generative model for tumor synthesis during
 - **baseline_seg_dir**: the path to the baseline segmentation model, serving for tumor quality control in segmentation training.
 - **TGAN_checkpoint**: the path to the generative model.
 
-We initially provide a baseline segmentation model and a generative model (trained on 2K data), you can download them [here](https://huggingface.co/Luffy503/FreeTumor).
+We initially provide a baseline segmentation model and a generative model (trained on 1.6K abdomen data). You can download them [here](https://huggingface.co/Luffy503/FreeTumor).
+
+```
+├── /data/FreeTumor
+    ├── Dataset003_Liver
+    ├── Dataset007_Pancreas
+    ├── Dataset220_KiTS2023
+    ├── BTCV
+    ├── Flare22
+    ├── Amos2022
+    ├── WORD
+    ├── CHAOS
+    ├── Dataset082_TCIA_Pancreas-CT
+    ├── Dataset009_Spleen
+    └── Dataset010_Colon
+```
 
 **Synthesis visualization**: codes to save offline datasets for visualization can be found under '/Syn_data'. You need to modify the data path and the path to save your results. In addition, you need to make sure the organ labels as:
 ```
