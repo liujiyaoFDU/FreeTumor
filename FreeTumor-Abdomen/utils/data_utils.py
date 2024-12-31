@@ -21,9 +21,8 @@ from monai.transforms import *
 from torch.utils.data import DataLoader, ConcatDataset
 from utils.data_trans import *
 
-
-root = '/data/linshan/FreeTumor/'
-cache_dir = '/data/linshan/cache/FreeTumor'
+root = '/data/FreeTumor/'
+cache_dir = '/data/FreeTumor/cache'
 
 lits_dir = root + 'Dataset003_Liver/'
 lits_json = "./jsons/five_fold/dataset_lits_split0.json"
