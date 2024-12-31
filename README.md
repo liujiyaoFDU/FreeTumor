@@ -53,10 +53,11 @@ The path of datasets should be organized as:
 
 ## Implementations
 
-First, you need to download a baseline segmentation model as the discriminator for synthesis training (or you can train a new one). The baseline segmentation model is placed in './baseline/'
+First, you need to train a baseline segmentation model as the discriminator for synthesis training (or you can download ours). The baseline segmentation model is placed in './baseline/'
 ```
 ├── baseline
-    └── model_baseline_segmentor.pt
+    ├── model_baseline_segmentor.pt
+    └── model_covid_voco160k.pt
 ```
 
 The synthesis training is conducted on 8*H800 GPUs while the segmentation training can be done with one 3090 GPU. Simple commands for training:
@@ -68,7 +69,7 @@ sh Syn_train.sh
 sh Free_train.sh
 ```
 
-Notably, currently we provide codes to train a generalist model, which can synthesize liver tumors, pancreas tumors, and kidney tumors (output by different channels). If you want to train specialist models for specific types of tumors (e.g., one model for liver tumors and another model for pancreas tumors), you need to check the codes [here] and modify the labels as follows:
+Notably, currently we provide codes to train a generalist model, which can synthesize liver tumors, pancreas tumors, and kidney tumors (output by different channels). If you want to train specialist models for specific types of tumors (e.g., one model for liver tumors and another model for pancreas tumors), you need to check the codes as [here](https://github.com/Luffy03/FreeTumor/blob/main/FreeTumor-Chest/models/TumorGAN.py) and modify the labels as follows:
 ```
 0: background
 1: organ
@@ -79,13 +80,13 @@ For synthesis training, you can modify number of GPUs in 'Syn_train.sh' script. 
 
 After synthesis training, we use the generative model for tumor synthesis during segmentation training. For the parameters of segmentation training:
 
-- data: 'lits', 'panc', 'kits'. Training different segmentation models for different types. 
-- task: 'onlylabeled' or 'freesyn'. 'onlylabeled' means the baseline, training with only real tumors.
-- use_ssl_pretrained: whether use pre-trained models. Optional, just want to advertise our work [VoCo](https://github.com/Luffy03/Large-Scale-Medical). You need to download our [pretrained model](https://huggingface.co/Luffy503/VoCo/resolve/main/VoCo_B_SSL_head.pt?download=true) and place it as './pretrained/VoCo_B_SSL_head.pt'.
-- baseline_seg_dir: the path to the baseline segmentation model, serving for tumor quality control in segmentation training.
-- TGAN_checkpoint: the path to the generative model.
+- **data**: 'lits', 'panc', 'kits'. Training different segmentation models for different types. 
+- **task**: 'onlylabeled' or 'freesyn'. 'onlylabeled' means the baseline, training with only real tumors.
+- **use_ssl_pretrained**: whether use pre-trained models. Optional, just want to advertise our work [VoCo](https://github.com/Luffy03/Large-Scale-Medical). You need to download our [pretrained model](https://huggingface.co/Luffy503/VoCo/resolve/main/VoCo_B_SSL_head.pt?download=true) and place it as './pretrained/VoCo_B_SSL_head.pt'.
+- **baseline_seg_dir**: the path to the baseline segmentation model, serving for tumor quality control in segmentation training.
+- **TGAN_checkpoint**: the path to the generative model.
 
-We initially provide a baseline segmentation model and a generative model (trained on 2K data), you can download them [here].
+We initially provide a baseline segmentation model and a generative model (trained on 2K data), you can download them [here](https://huggingface.co/Luffy503/FreeTumor).
 
 **Synthesis visualization**: codes to save offline datasets for visualization can be found under '/Syn_data'. You need to modify the data path and the path to save your results. In addition, you need to make sure the organ labels as:
 ```
