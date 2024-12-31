@@ -82,8 +82,8 @@ def load_fold(datalist_json, data_dir, fold=0):
     return train_files, val_files
 
 
-root = '/data/linshan/FreeTumor/'
-cache_root = '/data/linshan/cache/'
+root = '/data/FreeTumor/'
+cache_root = '/data/FreeTumor/cache/'
 
 covid_dir = root + 'Covid19_20/Train_lungmask/'
 covid_json = "./jsons/Covid19_20_folds.json"
