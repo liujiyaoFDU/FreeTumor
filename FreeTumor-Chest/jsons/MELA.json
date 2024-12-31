@@ -1,0 +1,3098 @@
+{
+    "description": "0",
+    "labels": {
+        "0": "background",
+        "1": "LUNG"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "MELA",
+    "numTraining": 770,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./imagesTr/mela_0001.nii.gz",
+            "label": "./labelsTr/mela_0001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0002.nii.gz",
+            "label": "./labelsTr/mela_0002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0003.nii.gz",
+            "label": "./labelsTr/mela_0003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0004.nii.gz",
+            "label": "./labelsTr/mela_0004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0005.nii.gz",
+            "label": "./labelsTr/mela_0005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0006.nii.gz",
+            "label": "./labelsTr/mela_0006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0007.nii.gz",
+            "label": "./labelsTr/mela_0007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0008.nii.gz",
+            "label": "./labelsTr/mela_0008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0009.nii.gz",
+            "label": "./labelsTr/mela_0009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0010.nii.gz",
+            "label": "./labelsTr/mela_0010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0011.nii.gz",
+            "label": "./labelsTr/mela_0011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0012.nii.gz",
+            "label": "./labelsTr/mela_0012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0013.nii.gz",
+            "label": "./labelsTr/mela_0013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0014.nii.gz",
+            "label": "./labelsTr/mela_0014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0015.nii.gz",
+            "label": "./labelsTr/mela_0015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0016.nii.gz",
+            "label": "./labelsTr/mela_0016.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0017.nii.gz",
+            "label": "./labelsTr/mela_0017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0018.nii.gz",
+            "label": "./labelsTr/mela_0018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0019.nii.gz",
+            "label": "./labelsTr/mela_0019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0020.nii.gz",
+            "label": "./labelsTr/mela_0020.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0021.nii.gz",
+            "label": "./labelsTr/mela_0021.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0022.nii.gz",
+            "label": "./labelsTr/mela_0022.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0023.nii.gz",
+            "label": "./labelsTr/mela_0023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0024.nii.gz",
+            "label": "./labelsTr/mela_0024.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0025.nii.gz",
+            "label": "./labelsTr/mela_0025.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0026.nii.gz",
+            "label": "./labelsTr/mela_0026.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0027.nii.gz",
+            "label": "./labelsTr/mela_0027.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0028.nii.gz",
+            "label": "./labelsTr/mela_0028.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0029.nii.gz",
+            "label": "./labelsTr/mela_0029.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0030.nii.gz",
+            "label": "./labelsTr/mela_0030.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0031.nii.gz",
+            "label": "./labelsTr/mela_0031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0032.nii.gz",
+            "label": "./labelsTr/mela_0032.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0033.nii.gz",
+            "label": "./labelsTr/mela_0033.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0034.nii.gz",
+            "label": "./labelsTr/mela_0034.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0035.nii.gz",
+            "label": "./labelsTr/mela_0035.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0036.nii.gz",
+            "label": "./labelsTr/mela_0036.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0037.nii.gz",
+            "label": "./labelsTr/mela_0037.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0038.nii.gz",
+            "label": "./labelsTr/mela_0038.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0039.nii.gz",
+            "label": "./labelsTr/mela_0039.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0040.nii.gz",
+            "label": "./labelsTr/mela_0040.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0041.nii.gz",
+            "label": "./labelsTr/mela_0041.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0042.nii.gz",
+            "label": "./labelsTr/mela_0042.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0043.nii.gz",
+            "label": "./labelsTr/mela_0043.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0044.nii.gz",
+            "label": "./labelsTr/mela_0044.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0045.nii.gz",
+            "label": "./labelsTr/mela_0045.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0046.nii.gz",
+            "label": "./labelsTr/mela_0046.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0047.nii.gz",
+            "label": "./labelsTr/mela_0047.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0048.nii.gz",
+            "label": "./labelsTr/mela_0048.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0049.nii.gz",
+            "label": "./labelsTr/mela_0049.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0050.nii.gz",
+            "label": "./labelsTr/mela_0050.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0051.nii.gz",
+            "label": "./labelsTr/mela_0051.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0052.nii.gz",
+            "label": "./labelsTr/mela_0052.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0053.nii.gz",
+            "label": "./labelsTr/mela_0053.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0054.nii.gz",
+            "label": "./labelsTr/mela_0054.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0055.nii.gz",
+            "label": "./labelsTr/mela_0055.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0056.nii.gz",
+            "label": "./labelsTr/mela_0056.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0057.nii.gz",
+            "label": "./labelsTr/mela_0057.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0058.nii.gz",
+            "label": "./labelsTr/mela_0058.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0059.nii.gz",
+            "label": "./labelsTr/mela_0059.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0060.nii.gz",
+            "label": "./labelsTr/mela_0060.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0061.nii.gz",
+            "label": "./labelsTr/mela_0061.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0062.nii.gz",
+            "label": "./labelsTr/mela_0062.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0063.nii.gz",
+            "label": "./labelsTr/mela_0063.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0064.nii.gz",
+            "label": "./labelsTr/mela_0064.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0065.nii.gz",
+            "label": "./labelsTr/mela_0065.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0066.nii.gz",
+            "label": "./labelsTr/mela_0066.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0067.nii.gz",
+            "label": "./labelsTr/mela_0067.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0068.nii.gz",
+            "label": "./labelsTr/mela_0068.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0069.nii.gz",
+            "label": "./labelsTr/mela_0069.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0070.nii.gz",
+            "label": "./labelsTr/mela_0070.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0071.nii.gz",
+            "label": "./labelsTr/mela_0071.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0072.nii.gz",
+            "label": "./labelsTr/mela_0072.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0073.nii.gz",
+            "label": "./labelsTr/mela_0073.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0074.nii.gz",
+            "label": "./labelsTr/mela_0074.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0075.nii.gz",
+            "label": "./labelsTr/mela_0075.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0076.nii.gz",
+            "label": "./labelsTr/mela_0076.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0077.nii.gz",
+            "label": "./labelsTr/mela_0077.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0078.nii.gz",
+            "label": "./labelsTr/mela_0078.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0079.nii.gz",
+            "label": "./labelsTr/mela_0079.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0080.nii.gz",
+            "label": "./labelsTr/mela_0080.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0081.nii.gz",
+            "label": "./labelsTr/mela_0081.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0082.nii.gz",
+            "label": "./labelsTr/mela_0082.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0083.nii.gz",
+            "label": "./labelsTr/mela_0083.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0084.nii.gz",
+            "label": "./labelsTr/mela_0084.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0085.nii.gz",
+            "label": "./labelsTr/mela_0085.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0086.nii.gz",
+            "label": "./labelsTr/mela_0086.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0087.nii.gz",
+            "label": "./labelsTr/mela_0087.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0088.nii.gz",
+            "label": "./labelsTr/mela_0088.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0089.nii.gz",
+            "label": "./labelsTr/mela_0089.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0090.nii.gz",
+            "label": "./labelsTr/mela_0090.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0091.nii.gz",
+            "label": "./labelsTr/mela_0091.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0092.nii.gz",
+            "label": "./labelsTr/mela_0092.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0093.nii.gz",
+            "label": "./labelsTr/mela_0093.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0094.nii.gz",
+            "label": "./labelsTr/mela_0094.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0095.nii.gz",
+            "label": "./labelsTr/mela_0095.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0096.nii.gz",
+            "label": "./labelsTr/mela_0096.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0097.nii.gz",
+            "label": "./labelsTr/mela_0097.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0098.nii.gz",
+            "label": "./labelsTr/mela_0098.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0099.nii.gz",
+            "label": "./labelsTr/mela_0099.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0100.nii.gz",
+            "label": "./labelsTr/mela_0100.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0101.nii.gz",
+            "label": "./labelsTr/mela_0101.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0102.nii.gz",
+            "label": "./labelsTr/mela_0102.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0103.nii.gz",
+            "label": "./labelsTr/mela_0103.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0104.nii.gz",
+            "label": "./labelsTr/mela_0104.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0105.nii.gz",
+            "label": "./labelsTr/mela_0105.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0106.nii.gz",
+            "label": "./labelsTr/mela_0106.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0107.nii.gz",
+            "label": "./labelsTr/mela_0107.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0108.nii.gz",
+            "label": "./labelsTr/mela_0108.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0109.nii.gz",
+            "label": "./labelsTr/mela_0109.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0110.nii.gz",
+            "label": "./labelsTr/mela_0110.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0111.nii.gz",
+            "label": "./labelsTr/mela_0111.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0112.nii.gz",
+            "label": "./labelsTr/mela_0112.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0113.nii.gz",
+            "label": "./labelsTr/mela_0113.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0114.nii.gz",
+            "label": "./labelsTr/mela_0114.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0115.nii.gz",
+            "label": "./labelsTr/mela_0115.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0116.nii.gz",
+            "label": "./labelsTr/mela_0116.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0117.nii.gz",
+            "label": "./labelsTr/mela_0117.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0118.nii.gz",
+            "label": "./labelsTr/mela_0118.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0119.nii.gz",
+            "label": "./labelsTr/mela_0119.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0120.nii.gz",
+            "label": "./labelsTr/mela_0120.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0121.nii.gz",
+            "label": "./labelsTr/mela_0121.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0122.nii.gz",
+            "label": "./labelsTr/mela_0122.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0123.nii.gz",
+            "label": "./labelsTr/mela_0123.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0124.nii.gz",
+            "label": "./labelsTr/mela_0124.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0125.nii.gz",
+            "label": "./labelsTr/mela_0125.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0126.nii.gz",
+            "label": "./labelsTr/mela_0126.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0127.nii.gz",
+            "label": "./labelsTr/mela_0127.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0128.nii.gz",
+            "label": "./labelsTr/mela_0128.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0129.nii.gz",
+            "label": "./labelsTr/mela_0129.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0130.nii.gz",
+            "label": "./labelsTr/mela_0130.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0131.nii.gz",
+            "label": "./labelsTr/mela_0131.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0132.nii.gz",
+            "label": "./labelsTr/mela_0132.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0133.nii.gz",
+            "label": "./labelsTr/mela_0133.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0134.nii.gz",
+            "label": "./labelsTr/mela_0134.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0135.nii.gz",
+            "label": "./labelsTr/mela_0135.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0136.nii.gz",
+            "label": "./labelsTr/mela_0136.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0137.nii.gz",
+            "label": "./labelsTr/mela_0137.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0138.nii.gz",
+            "label": "./labelsTr/mela_0138.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0139.nii.gz",
+            "label": "./labelsTr/mela_0139.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0140.nii.gz",
+            "label": "./labelsTr/mela_0140.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0141.nii.gz",
+            "label": "./labelsTr/mela_0141.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0142.nii.gz",
+            "label": "./labelsTr/mela_0142.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0143.nii.gz",
+            "label": "./labelsTr/mela_0143.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0144.nii.gz",
+            "label": "./labelsTr/mela_0144.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0145.nii.gz",
+            "label": "./labelsTr/mela_0145.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0146.nii.gz",
+            "label": "./labelsTr/mela_0146.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0147.nii.gz",
+            "label": "./labelsTr/mela_0147.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0148.nii.gz",
+            "label": "./labelsTr/mela_0148.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0149.nii.gz",
+            "label": "./labelsTr/mela_0149.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0150.nii.gz",
+            "label": "./labelsTr/mela_0150.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0151.nii.gz",
+            "label": "./labelsTr/mela_0151.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0152.nii.gz",
+            "label": "./labelsTr/mela_0152.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0153.nii.gz",
+            "label": "./labelsTr/mela_0153.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0154.nii.gz",
+            "label": "./labelsTr/mela_0154.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0155.nii.gz",
+            "label": "./labelsTr/mela_0155.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0156.nii.gz",
+            "label": "./labelsTr/mela_0156.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0157.nii.gz",
+            "label": "./labelsTr/mela_0157.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0158.nii.gz",
+            "label": "./labelsTr/mela_0158.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0159.nii.gz",
+            "label": "./labelsTr/mela_0159.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0160.nii.gz",
+            "label": "./labelsTr/mela_0160.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0161.nii.gz",
+            "label": "./labelsTr/mela_0161.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0162.nii.gz",
+            "label": "./labelsTr/mela_0162.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0163.nii.gz",
+            "label": "./labelsTr/mela_0163.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0164.nii.gz",
+            "label": "./labelsTr/mela_0164.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0165.nii.gz",
+            "label": "./labelsTr/mela_0165.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0166.nii.gz",
+            "label": "./labelsTr/mela_0166.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0167.nii.gz",
+            "label": "./labelsTr/mela_0167.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0168.nii.gz",
+            "label": "./labelsTr/mela_0168.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0169.nii.gz",
+            "label": "./labelsTr/mela_0169.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0170.nii.gz",
+            "label": "./labelsTr/mela_0170.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0171.nii.gz",
+            "label": "./labelsTr/mela_0171.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0172.nii.gz",
+            "label": "./labelsTr/mela_0172.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0173.nii.gz",
+            "label": "./labelsTr/mela_0173.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0174.nii.gz",
+            "label": "./labelsTr/mela_0174.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0175.nii.gz",
+            "label": "./labelsTr/mela_0175.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0176.nii.gz",
+            "label": "./labelsTr/mela_0176.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0177.nii.gz",
+            "label": "./labelsTr/mela_0177.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0178.nii.gz",
+            "label": "./labelsTr/mela_0178.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0179.nii.gz",
+            "label": "./labelsTr/mela_0179.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0180.nii.gz",
+            "label": "./labelsTr/mela_0180.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0181.nii.gz",
+            "label": "./labelsTr/mela_0181.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0182.nii.gz",
+            "label": "./labelsTr/mela_0182.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0183.nii.gz",
+            "label": "./labelsTr/mela_0183.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0184.nii.gz",
+            "label": "./labelsTr/mela_0184.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0185.nii.gz",
+            "label": "./labelsTr/mela_0185.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0186.nii.gz",
+            "label": "./labelsTr/mela_0186.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0187.nii.gz",
+            "label": "./labelsTr/mela_0187.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0188.nii.gz",
+            "label": "./labelsTr/mela_0188.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0189.nii.gz",
+            "label": "./labelsTr/mela_0189.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0190.nii.gz",
+            "label": "./labelsTr/mela_0190.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0191.nii.gz",
+            "label": "./labelsTr/mela_0191.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0192.nii.gz",
+            "label": "./labelsTr/mela_0192.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0193.nii.gz",
+            "label": "./labelsTr/mela_0193.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0194.nii.gz",
+            "label": "./labelsTr/mela_0194.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0195.nii.gz",
+            "label": "./labelsTr/mela_0195.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0196.nii.gz",
+            "label": "./labelsTr/mela_0196.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0197.nii.gz",
+            "label": "./labelsTr/mela_0197.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0198.nii.gz",
+            "label": "./labelsTr/mela_0198.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0199.nii.gz",
+            "label": "./labelsTr/mela_0199.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0200.nii.gz",
+            "label": "./labelsTr/mela_0200.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0201.nii.gz",
+            "label": "./labelsTr/mela_0201.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0202.nii.gz",
+            "label": "./labelsTr/mela_0202.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0203.nii.gz",
+            "label": "./labelsTr/mela_0203.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0204.nii.gz",
+            "label": "./labelsTr/mela_0204.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0205.nii.gz",
+            "label": "./labelsTr/mela_0205.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0206.nii.gz",
+            "label": "./labelsTr/mela_0206.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0207.nii.gz",
+            "label": "./labelsTr/mela_0207.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0208.nii.gz",
+            "label": "./labelsTr/mela_0208.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0209.nii.gz",
+            "label": "./labelsTr/mela_0209.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0210.nii.gz",
+            "label": "./labelsTr/mela_0210.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0211.nii.gz",
+            "label": "./labelsTr/mela_0211.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0212.nii.gz",
+            "label": "./labelsTr/mela_0212.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0213.nii.gz",
+            "label": "./labelsTr/mela_0213.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0214.nii.gz",
+            "label": "./labelsTr/mela_0214.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0215.nii.gz",
+            "label": "./labelsTr/mela_0215.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0216.nii.gz",
+            "label": "./labelsTr/mela_0216.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0217.nii.gz",
+            "label": "./labelsTr/mela_0217.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0218.nii.gz",
+            "label": "./labelsTr/mela_0218.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0219.nii.gz",
+            "label": "./labelsTr/mela_0219.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0220.nii.gz",
+            "label": "./labelsTr/mela_0220.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0221.nii.gz",
+            "label": "./labelsTr/mela_0221.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0222.nii.gz",
+            "label": "./labelsTr/mela_0222.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0223.nii.gz",
+            "label": "./labelsTr/mela_0223.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0224.nii.gz",
+            "label": "./labelsTr/mela_0224.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0225.nii.gz",
+            "label": "./labelsTr/mela_0225.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0226.nii.gz",
+            "label": "./labelsTr/mela_0226.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0227.nii.gz",
+            "label": "./labelsTr/mela_0227.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0228.nii.gz",
+            "label": "./labelsTr/mela_0228.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0229.nii.gz",
+            "label": "./labelsTr/mela_0229.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0230.nii.gz",
+            "label": "./labelsTr/mela_0230.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0231.nii.gz",
+            "label": "./labelsTr/mela_0231.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0232.nii.gz",
+            "label": "./labelsTr/mela_0232.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0233.nii.gz",
+            "label": "./labelsTr/mela_0233.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0234.nii.gz",
+            "label": "./labelsTr/mela_0234.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0235.nii.gz",
+            "label": "./labelsTr/mela_0235.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0236.nii.gz",
+            "label": "./labelsTr/mela_0236.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0237.nii.gz",
+            "label": "./labelsTr/mela_0237.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0238.nii.gz",
+            "label": "./labelsTr/mela_0238.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0239.nii.gz",
+            "label": "./labelsTr/mela_0239.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0240.nii.gz",
+            "label": "./labelsTr/mela_0240.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0241.nii.gz",
+            "label": "./labelsTr/mela_0241.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0242.nii.gz",
+            "label": "./labelsTr/mela_0242.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0243.nii.gz",
+            "label": "./labelsTr/mela_0243.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0244.nii.gz",
+            "label": "./labelsTr/mela_0244.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0245.nii.gz",
+            "label": "./labelsTr/mela_0245.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0246.nii.gz",
+            "label": "./labelsTr/mela_0246.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0247.nii.gz",
+            "label": "./labelsTr/mela_0247.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0248.nii.gz",
+            "label": "./labelsTr/mela_0248.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0249.nii.gz",
+            "label": "./labelsTr/mela_0249.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0250.nii.gz",
+            "label": "./labelsTr/mela_0250.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0251.nii.gz",
+            "label": "./labelsTr/mela_0251.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0252.nii.gz",
+            "label": "./labelsTr/mela_0252.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0253.nii.gz",
+            "label": "./labelsTr/mela_0253.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0254.nii.gz",
+            "label": "./labelsTr/mela_0254.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0255.nii.gz",
+            "label": "./labelsTr/mela_0255.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0256.nii.gz",
+            "label": "./labelsTr/mela_0256.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0257.nii.gz",
+            "label": "./labelsTr/mela_0257.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0258.nii.gz",
+            "label": "./labelsTr/mela_0258.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0259.nii.gz",
+            "label": "./labelsTr/mela_0259.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0260.nii.gz",
+            "label": "./labelsTr/mela_0260.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0261.nii.gz",
+            "label": "./labelsTr/mela_0261.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0262.nii.gz",
+            "label": "./labelsTr/mela_0262.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0263.nii.gz",
+            "label": "./labelsTr/mela_0263.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0264.nii.gz",
+            "label": "./labelsTr/mela_0264.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0265.nii.gz",
+            "label": "./labelsTr/mela_0265.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0266.nii.gz",
+            "label": "./labelsTr/mela_0266.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0267.nii.gz",
+            "label": "./labelsTr/mela_0267.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0268.nii.gz",
+            "label": "./labelsTr/mela_0268.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0269.nii.gz",
+            "label": "./labelsTr/mela_0269.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0270.nii.gz",
+            "label": "./labelsTr/mela_0270.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0271.nii.gz",
+            "label": "./labelsTr/mela_0271.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0272.nii.gz",
+            "label": "./labelsTr/mela_0272.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0273.nii.gz",
+            "label": "./labelsTr/mela_0273.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0274.nii.gz",
+            "label": "./labelsTr/mela_0274.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0275.nii.gz",
+            "label": "./labelsTr/mela_0275.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0276.nii.gz",
+            "label": "./labelsTr/mela_0276.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0277.nii.gz",
+            "label": "./labelsTr/mela_0277.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0278.nii.gz",
+            "label": "./labelsTr/mela_0278.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0279.nii.gz",
+            "label": "./labelsTr/mela_0279.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0280.nii.gz",
+            "label": "./labelsTr/mela_0280.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0281.nii.gz",
+            "label": "./labelsTr/mela_0281.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0282.nii.gz",
+            "label": "./labelsTr/mela_0282.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0283.nii.gz",
+            "label": "./labelsTr/mela_0283.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0284.nii.gz",
+            "label": "./labelsTr/mela_0284.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0285.nii.gz",
+            "label": "./labelsTr/mela_0285.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0286.nii.gz",
+            "label": "./labelsTr/mela_0286.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0287.nii.gz",
+            "label": "./labelsTr/mela_0287.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0288.nii.gz",
+            "label": "./labelsTr/mela_0288.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0289.nii.gz",
+            "label": "./labelsTr/mela_0289.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0290.nii.gz",
+            "label": "./labelsTr/mela_0290.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0291.nii.gz",
+            "label": "./labelsTr/mela_0291.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0292.nii.gz",
+            "label": "./labelsTr/mela_0292.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0293.nii.gz",
+            "label": "./labelsTr/mela_0293.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0294.nii.gz",
+            "label": "./labelsTr/mela_0294.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0295.nii.gz",
+            "label": "./labelsTr/mela_0295.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0296.nii.gz",
+            "label": "./labelsTr/mela_0296.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0297.nii.gz",
+            "label": "./labelsTr/mela_0297.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0298.nii.gz",
+            "label": "./labelsTr/mela_0298.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0299.nii.gz",
+            "label": "./labelsTr/mela_0299.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0300.nii.gz",
+            "label": "./labelsTr/mela_0300.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0301.nii.gz",
+            "label": "./labelsTr/mela_0301.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0302.nii.gz",
+            "label": "./labelsTr/mela_0302.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0303.nii.gz",
+            "label": "./labelsTr/mela_0303.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0304.nii.gz",
+            "label": "./labelsTr/mela_0304.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0305.nii.gz",
+            "label": "./labelsTr/mela_0305.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0306.nii.gz",
+            "label": "./labelsTr/mela_0306.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0307.nii.gz",
+            "label": "./labelsTr/mela_0307.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0308.nii.gz",
+            "label": "./labelsTr/mela_0308.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0309.nii.gz",
+            "label": "./labelsTr/mela_0309.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0310.nii.gz",
+            "label": "./labelsTr/mela_0310.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0311.nii.gz",
+            "label": "./labelsTr/mela_0311.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0312.nii.gz",
+            "label": "./labelsTr/mela_0312.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0313.nii.gz",
+            "label": "./labelsTr/mela_0313.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0314.nii.gz",
+            "label": "./labelsTr/mela_0314.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0315.nii.gz",
+            "label": "./labelsTr/mela_0315.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0316.nii.gz",
+            "label": "./labelsTr/mela_0316.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0317.nii.gz",
+            "label": "./labelsTr/mela_0317.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0318.nii.gz",
+            "label": "./labelsTr/mela_0318.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0319.nii.gz",
+            "label": "./labelsTr/mela_0319.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0320.nii.gz",
+            "label": "./labelsTr/mela_0320.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0321.nii.gz",
+            "label": "./labelsTr/mela_0321.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0322.nii.gz",
+            "label": "./labelsTr/mela_0322.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0323.nii.gz",
+            "label": "./labelsTr/mela_0323.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0324.nii.gz",
+            "label": "./labelsTr/mela_0324.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0325.nii.gz",
+            "label": "./labelsTr/mela_0325.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0326.nii.gz",
+            "label": "./labelsTr/mela_0326.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0327.nii.gz",
+            "label": "./labelsTr/mela_0327.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0328.nii.gz",
+            "label": "./labelsTr/mela_0328.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0329.nii.gz",
+            "label": "./labelsTr/mela_0329.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0330.nii.gz",
+            "label": "./labelsTr/mela_0330.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0331.nii.gz",
+            "label": "./labelsTr/mela_0331.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0332.nii.gz",
+            "label": "./labelsTr/mela_0332.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0333.nii.gz",
+            "label": "./labelsTr/mela_0333.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0334.nii.gz",
+            "label": "./labelsTr/mela_0334.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0335.nii.gz",
+            "label": "./labelsTr/mela_0335.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0336.nii.gz",
+            "label": "./labelsTr/mela_0336.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0337.nii.gz",
+            "label": "./labelsTr/mela_0337.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0338.nii.gz",
+            "label": "./labelsTr/mela_0338.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0339.nii.gz",
+            "label": "./labelsTr/mela_0339.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0340.nii.gz",
+            "label": "./labelsTr/mela_0340.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0341.nii.gz",
+            "label": "./labelsTr/mela_0341.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0342.nii.gz",
+            "label": "./labelsTr/mela_0342.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0343.nii.gz",
+            "label": "./labelsTr/mela_0343.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0344.nii.gz",
+            "label": "./labelsTr/mela_0344.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0345.nii.gz",
+            "label": "./labelsTr/mela_0345.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0346.nii.gz",
+            "label": "./labelsTr/mela_0346.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0347.nii.gz",
+            "label": "./labelsTr/mela_0347.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0348.nii.gz",
+            "label": "./labelsTr/mela_0348.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0349.nii.gz",
+            "label": "./labelsTr/mela_0349.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0350.nii.gz",
+            "label": "./labelsTr/mela_0350.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0351.nii.gz",
+            "label": "./labelsTr/mela_0351.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0352.nii.gz",
+            "label": "./labelsTr/mela_0352.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0353.nii.gz",
+            "label": "./labelsTr/mela_0353.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0354.nii.gz",
+            "label": "./labelsTr/mela_0354.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0355.nii.gz",
+            "label": "./labelsTr/mela_0355.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0356.nii.gz",
+            "label": "./labelsTr/mela_0356.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0357.nii.gz",
+            "label": "./labelsTr/mela_0357.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0358.nii.gz",
+            "label": "./labelsTr/mela_0358.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0359.nii.gz",
+            "label": "./labelsTr/mela_0359.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0360.nii.gz",
+            "label": "./labelsTr/mela_0360.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0361.nii.gz",
+            "label": "./labelsTr/mela_0361.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0362.nii.gz",
+            "label": "./labelsTr/mela_0362.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0363.nii.gz",
+            "label": "./labelsTr/mela_0363.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0364.nii.gz",
+            "label": "./labelsTr/mela_0364.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0365.nii.gz",
+            "label": "./labelsTr/mela_0365.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0366.nii.gz",
+            "label": "./labelsTr/mela_0366.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0367.nii.gz",
+            "label": "./labelsTr/mela_0367.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0368.nii.gz",
+            "label": "./labelsTr/mela_0368.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0369.nii.gz",
+            "label": "./labelsTr/mela_0369.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0370.nii.gz",
+            "label": "./labelsTr/mela_0370.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0371.nii.gz",
+            "label": "./labelsTr/mela_0371.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0372.nii.gz",
+            "label": "./labelsTr/mela_0372.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0373.nii.gz",
+            "label": "./labelsTr/mela_0373.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0374.nii.gz",
+            "label": "./labelsTr/mela_0374.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0375.nii.gz",
+            "label": "./labelsTr/mela_0375.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0376.nii.gz",
+            "label": "./labelsTr/mela_0376.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0377.nii.gz",
+            "label": "./labelsTr/mela_0377.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0378.nii.gz",
+            "label": "./labelsTr/mela_0378.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0379.nii.gz",
+            "label": "./labelsTr/mela_0379.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0380.nii.gz",
+            "label": "./labelsTr/mela_0380.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0381.nii.gz",
+            "label": "./labelsTr/mela_0381.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0382.nii.gz",
+            "label": "./labelsTr/mela_0382.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0383.nii.gz",
+            "label": "./labelsTr/mela_0383.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0384.nii.gz",
+            "label": "./labelsTr/mela_0384.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0385.nii.gz",
+            "label": "./labelsTr/mela_0385.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0386.nii.gz",
+            "label": "./labelsTr/mela_0386.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0387.nii.gz",
+            "label": "./labelsTr/mela_0387.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0388.nii.gz",
+            "label": "./labelsTr/mela_0388.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0389.nii.gz",
+            "label": "./labelsTr/mela_0389.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0390.nii.gz",
+            "label": "./labelsTr/mela_0390.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0391.nii.gz",
+            "label": "./labelsTr/mela_0391.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0392.nii.gz",
+            "label": "./labelsTr/mela_0392.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0393.nii.gz",
+            "label": "./labelsTr/mela_0393.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0394.nii.gz",
+            "label": "./labelsTr/mela_0394.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0395.nii.gz",
+            "label": "./labelsTr/mela_0395.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0396.nii.gz",
+            "label": "./labelsTr/mela_0396.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0397.nii.gz",
+            "label": "./labelsTr/mela_0397.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0398.nii.gz",
+            "label": "./labelsTr/mela_0398.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0399.nii.gz",
+            "label": "./labelsTr/mela_0399.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0400.nii.gz",
+            "label": "./labelsTr/mela_0400.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0401.nii.gz",
+            "label": "./labelsTr/mela_0401.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0402.nii.gz",
+            "label": "./labelsTr/mela_0402.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0403.nii.gz",
+            "label": "./labelsTr/mela_0403.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0404.nii.gz",
+            "label": "./labelsTr/mela_0404.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0405.nii.gz",
+            "label": "./labelsTr/mela_0405.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0406.nii.gz",
+            "label": "./labelsTr/mela_0406.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0407.nii.gz",
+            "label": "./labelsTr/mela_0407.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0408.nii.gz",
+            "label": "./labelsTr/mela_0408.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0409.nii.gz",
+            "label": "./labelsTr/mela_0409.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0410.nii.gz",
+            "label": "./labelsTr/mela_0410.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0411.nii.gz",
+            "label": "./labelsTr/mela_0411.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0412.nii.gz",
+            "label": "./labelsTr/mela_0412.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0413.nii.gz",
+            "label": "./labelsTr/mela_0413.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0414.nii.gz",
+            "label": "./labelsTr/mela_0414.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0415.nii.gz",
+            "label": "./labelsTr/mela_0415.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0416.nii.gz",
+            "label": "./labelsTr/mela_0416.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0417.nii.gz",
+            "label": "./labelsTr/mela_0417.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0418.nii.gz",
+            "label": "./labelsTr/mela_0418.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0419.nii.gz",
+            "label": "./labelsTr/mela_0419.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0420.nii.gz",
+            "label": "./labelsTr/mela_0420.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0421.nii.gz",
+            "label": "./labelsTr/mela_0421.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0422.nii.gz",
+            "label": "./labelsTr/mela_0422.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0423.nii.gz",
+            "label": "./labelsTr/mela_0423.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0424.nii.gz",
+            "label": "./labelsTr/mela_0424.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0425.nii.gz",
+            "label": "./labelsTr/mela_0425.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0426.nii.gz",
+            "label": "./labelsTr/mela_0426.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0427.nii.gz",
+            "label": "./labelsTr/mela_0427.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0428.nii.gz",
+            "label": "./labelsTr/mela_0428.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0429.nii.gz",
+            "label": "./labelsTr/mela_0429.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0430.nii.gz",
+            "label": "./labelsTr/mela_0430.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0431.nii.gz",
+            "label": "./labelsTr/mela_0431.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0432.nii.gz",
+            "label": "./labelsTr/mela_0432.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0433.nii.gz",
+            "label": "./labelsTr/mela_0433.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0434.nii.gz",
+            "label": "./labelsTr/mela_0434.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0435.nii.gz",
+            "label": "./labelsTr/mela_0435.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0436.nii.gz",
+            "label": "./labelsTr/mela_0436.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0437.nii.gz",
+            "label": "./labelsTr/mela_0437.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0438.nii.gz",
+            "label": "./labelsTr/mela_0438.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0439.nii.gz",
+            "label": "./labelsTr/mela_0439.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0440.nii.gz",
+            "label": "./labelsTr/mela_0440.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0441.nii.gz",
+            "label": "./labelsTr/mela_0441.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0442.nii.gz",
+            "label": "./labelsTr/mela_0442.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0443.nii.gz",
+            "label": "./labelsTr/mela_0443.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0444.nii.gz",
+            "label": "./labelsTr/mela_0444.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0445.nii.gz",
+            "label": "./labelsTr/mela_0445.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0446.nii.gz",
+            "label": "./labelsTr/mela_0446.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0447.nii.gz",
+            "label": "./labelsTr/mela_0447.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0448.nii.gz",
+            "label": "./labelsTr/mela_0448.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0449.nii.gz",
+            "label": "./labelsTr/mela_0449.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0450.nii.gz",
+            "label": "./labelsTr/mela_0450.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0451.nii.gz",
+            "label": "./labelsTr/mela_0451.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0452.nii.gz",
+            "label": "./labelsTr/mela_0452.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0453.nii.gz",
+            "label": "./labelsTr/mela_0453.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0454.nii.gz",
+            "label": "./labelsTr/mela_0454.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0455.nii.gz",
+            "label": "./labelsTr/mela_0455.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0456.nii.gz",
+            "label": "./labelsTr/mela_0456.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0457.nii.gz",
+            "label": "./labelsTr/mela_0457.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0458.nii.gz",
+            "label": "./labelsTr/mela_0458.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0459.nii.gz",
+            "label": "./labelsTr/mela_0459.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0460.nii.gz",
+            "label": "./labelsTr/mela_0460.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0461.nii.gz",
+            "label": "./labelsTr/mela_0461.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0462.nii.gz",
+            "label": "./labelsTr/mela_0462.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0463.nii.gz",
+            "label": "./labelsTr/mela_0463.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0464.nii.gz",
+            "label": "./labelsTr/mela_0464.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0465.nii.gz",
+            "label": "./labelsTr/mela_0465.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0466.nii.gz",
+            "label": "./labelsTr/mela_0466.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0467.nii.gz",
+            "label": "./labelsTr/mela_0467.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0468.nii.gz",
+            "label": "./labelsTr/mela_0468.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0469.nii.gz",
+            "label": "./labelsTr/mela_0469.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0470.nii.gz",
+            "label": "./labelsTr/mela_0470.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0471.nii.gz",
+            "label": "./labelsTr/mela_0471.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0472.nii.gz",
+            "label": "./labelsTr/mela_0472.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0473.nii.gz",
+            "label": "./labelsTr/mela_0473.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0474.nii.gz",
+            "label": "./labelsTr/mela_0474.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0475.nii.gz",
+            "label": "./labelsTr/mela_0475.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0476.nii.gz",
+            "label": "./labelsTr/mela_0476.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0477.nii.gz",
+            "label": "./labelsTr/mela_0477.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0478.nii.gz",
+            "label": "./labelsTr/mela_0478.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0479.nii.gz",
+            "label": "./labelsTr/mela_0479.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0480.nii.gz",
+            "label": "./labelsTr/mela_0480.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0481.nii.gz",
+            "label": "./labelsTr/mela_0481.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0482.nii.gz",
+            "label": "./labelsTr/mela_0482.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0483.nii.gz",
+            "label": "./labelsTr/mela_0483.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0484.nii.gz",
+            "label": "./labelsTr/mela_0484.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0485.nii.gz",
+            "label": "./labelsTr/mela_0485.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0486.nii.gz",
+            "label": "./labelsTr/mela_0486.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0487.nii.gz",
+            "label": "./labelsTr/mela_0487.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0488.nii.gz",
+            "label": "./labelsTr/mela_0488.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0489.nii.gz",
+            "label": "./labelsTr/mela_0489.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0490.nii.gz",
+            "label": "./labelsTr/mela_0490.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0491.nii.gz",
+            "label": "./labelsTr/mela_0491.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0492.nii.gz",
+            "label": "./labelsTr/mela_0492.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0493.nii.gz",
+            "label": "./labelsTr/mela_0493.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0494.nii.gz",
+            "label": "./labelsTr/mela_0494.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0495.nii.gz",
+            "label": "./labelsTr/mela_0495.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0496.nii.gz",
+            "label": "./labelsTr/mela_0496.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0497.nii.gz",
+            "label": "./labelsTr/mela_0497.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0498.nii.gz",
+            "label": "./labelsTr/mela_0498.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0499.nii.gz",
+            "label": "./labelsTr/mela_0499.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0500.nii.gz",
+            "label": "./labelsTr/mela_0500.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0501.nii.gz",
+            "label": "./labelsTr/mela_0501.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0502.nii.gz",
+            "label": "./labelsTr/mela_0502.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0503.nii.gz",
+            "label": "./labelsTr/mela_0503.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0504.nii.gz",
+            "label": "./labelsTr/mela_0504.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0505.nii.gz",
+            "label": "./labelsTr/mela_0505.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0506.nii.gz",
+            "label": "./labelsTr/mela_0506.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0507.nii.gz",
+            "label": "./labelsTr/mela_0507.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0508.nii.gz",
+            "label": "./labelsTr/mela_0508.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0509.nii.gz",
+            "label": "./labelsTr/mela_0509.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0510.nii.gz",
+            "label": "./labelsTr/mela_0510.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0511.nii.gz",
+            "label": "./labelsTr/mela_0511.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0512.nii.gz",
+            "label": "./labelsTr/mela_0512.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0513.nii.gz",
+            "label": "./labelsTr/mela_0513.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0514.nii.gz",
+            "label": "./labelsTr/mela_0514.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0515.nii.gz",
+            "label": "./labelsTr/mela_0515.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0516.nii.gz",
+            "label": "./labelsTr/mela_0516.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0517.nii.gz",
+            "label": "./labelsTr/mela_0517.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0518.nii.gz",
+            "label": "./labelsTr/mela_0518.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0519.nii.gz",
+            "label": "./labelsTr/mela_0519.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0520.nii.gz",
+            "label": "./labelsTr/mela_0520.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0521.nii.gz",
+            "label": "./labelsTr/mela_0521.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0522.nii.gz",
+            "label": "./labelsTr/mela_0522.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0523.nii.gz",
+            "label": "./labelsTr/mela_0523.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0524.nii.gz",
+            "label": "./labelsTr/mela_0524.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0525.nii.gz",
+            "label": "./labelsTr/mela_0525.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0526.nii.gz",
+            "label": "./labelsTr/mela_0526.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0527.nii.gz",
+            "label": "./labelsTr/mela_0527.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0528.nii.gz",
+            "label": "./labelsTr/mela_0528.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0529.nii.gz",
+            "label": "./labelsTr/mela_0529.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0530.nii.gz",
+            "label": "./labelsTr/mela_0530.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0531.nii.gz",
+            "label": "./labelsTr/mela_0531.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0532.nii.gz",
+            "label": "./labelsTr/mela_0532.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0533.nii.gz",
+            "label": "./labelsTr/mela_0533.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0534.nii.gz",
+            "label": "./labelsTr/mela_0534.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0535.nii.gz",
+            "label": "./labelsTr/mela_0535.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0536.nii.gz",
+            "label": "./labelsTr/mela_0536.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0537.nii.gz",
+            "label": "./labelsTr/mela_0537.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0538.nii.gz",
+            "label": "./labelsTr/mela_0538.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0539.nii.gz",
+            "label": "./labelsTr/mela_0539.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0540.nii.gz",
+            "label": "./labelsTr/mela_0540.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0541.nii.gz",
+            "label": "./labelsTr/mela_0541.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0542.nii.gz",
+            "label": "./labelsTr/mela_0542.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0543.nii.gz",
+            "label": "./labelsTr/mela_0543.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0544.nii.gz",
+            "label": "./labelsTr/mela_0544.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0545.nii.gz",
+            "label": "./labelsTr/mela_0545.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0546.nii.gz",
+            "label": "./labelsTr/mela_0546.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0547.nii.gz",
+            "label": "./labelsTr/mela_0547.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0548.nii.gz",
+            "label": "./labelsTr/mela_0548.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0549.nii.gz",
+            "label": "./labelsTr/mela_0549.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0550.nii.gz",
+            "label": "./labelsTr/mela_0550.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0551.nii.gz",
+            "label": "./labelsTr/mela_0551.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0552.nii.gz",
+            "label": "./labelsTr/mela_0552.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0553.nii.gz",
+            "label": "./labelsTr/mela_0553.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0554.nii.gz",
+            "label": "./labelsTr/mela_0554.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0555.nii.gz",
+            "label": "./labelsTr/mela_0555.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0556.nii.gz",
+            "label": "./labelsTr/mela_0556.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0557.nii.gz",
+            "label": "./labelsTr/mela_0557.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0558.nii.gz",
+            "label": "./labelsTr/mela_0558.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0559.nii.gz",
+            "label": "./labelsTr/mela_0559.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0560.nii.gz",
+            "label": "./labelsTr/mela_0560.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0561.nii.gz",
+            "label": "./labelsTr/mela_0561.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0562.nii.gz",
+            "label": "./labelsTr/mela_0562.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0563.nii.gz",
+            "label": "./labelsTr/mela_0563.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0564.nii.gz",
+            "label": "./labelsTr/mela_0564.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0565.nii.gz",
+            "label": "./labelsTr/mela_0565.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0566.nii.gz",
+            "label": "./labelsTr/mela_0566.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0567.nii.gz",
+            "label": "./labelsTr/mela_0567.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0568.nii.gz",
+            "label": "./labelsTr/mela_0568.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0569.nii.gz",
+            "label": "./labelsTr/mela_0569.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0570.nii.gz",
+            "label": "./labelsTr/mela_0570.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0571.nii.gz",
+            "label": "./labelsTr/mela_0571.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0572.nii.gz",
+            "label": "./labelsTr/mela_0572.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0573.nii.gz",
+            "label": "./labelsTr/mela_0573.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0574.nii.gz",
+            "label": "./labelsTr/mela_0574.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0575.nii.gz",
+            "label": "./labelsTr/mela_0575.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0576.nii.gz",
+            "label": "./labelsTr/mela_0576.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0577.nii.gz",
+            "label": "./labelsTr/mela_0577.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0578.nii.gz",
+            "label": "./labelsTr/mela_0578.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0579.nii.gz",
+            "label": "./labelsTr/mela_0579.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0580.nii.gz",
+            "label": "./labelsTr/mela_0580.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0581.nii.gz",
+            "label": "./labelsTr/mela_0581.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0582.nii.gz",
+            "label": "./labelsTr/mela_0582.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0583.nii.gz",
+            "label": "./labelsTr/mela_0583.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0584.nii.gz",
+            "label": "./labelsTr/mela_0584.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0585.nii.gz",
+            "label": "./labelsTr/mela_0585.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0586.nii.gz",
+            "label": "./labelsTr/mela_0586.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0587.nii.gz",
+            "label": "./labelsTr/mela_0587.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0588.nii.gz",
+            "label": "./labelsTr/mela_0588.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0589.nii.gz",
+            "label": "./labelsTr/mela_0589.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0590.nii.gz",
+            "label": "./labelsTr/mela_0590.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0591.nii.gz",
+            "label": "./labelsTr/mela_0591.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0592.nii.gz",
+            "label": "./labelsTr/mela_0592.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0593.nii.gz",
+            "label": "./labelsTr/mela_0593.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0594.nii.gz",
+            "label": "./labelsTr/mela_0594.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0595.nii.gz",
+            "label": "./labelsTr/mela_0595.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0596.nii.gz",
+            "label": "./labelsTr/mela_0596.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0597.nii.gz",
+            "label": "./labelsTr/mela_0597.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0598.nii.gz",
+            "label": "./labelsTr/mela_0598.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0599.nii.gz",
+            "label": "./labelsTr/mela_0599.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0600.nii.gz",
+            "label": "./labelsTr/mela_0600.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0601.nii.gz",
+            "label": "./labelsTr/mela_0601.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0602.nii.gz",
+            "label": "./labelsTr/mela_0602.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0603.nii.gz",
+            "label": "./labelsTr/mela_0603.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0604.nii.gz",
+            "label": "./labelsTr/mela_0604.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0605.nii.gz",
+            "label": "./labelsTr/mela_0605.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0606.nii.gz",
+            "label": "./labelsTr/mela_0606.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0607.nii.gz",
+            "label": "./labelsTr/mela_0607.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0608.nii.gz",
+            "label": "./labelsTr/mela_0608.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0609.nii.gz",
+            "label": "./labelsTr/mela_0609.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0610.nii.gz",
+            "label": "./labelsTr/mela_0610.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0611.nii.gz",
+            "label": "./labelsTr/mela_0611.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0612.nii.gz",
+            "label": "./labelsTr/mela_0612.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0613.nii.gz",
+            "label": "./labelsTr/mela_0613.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0614.nii.gz",
+            "label": "./labelsTr/mela_0614.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0615.nii.gz",
+            "label": "./labelsTr/mela_0615.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0616.nii.gz",
+            "label": "./labelsTr/mela_0616.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0617.nii.gz",
+            "label": "./labelsTr/mela_0617.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0618.nii.gz",
+            "label": "./labelsTr/mela_0618.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0619.nii.gz",
+            "label": "./labelsTr/mela_0619.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0620.nii.gz",
+            "label": "./labelsTr/mela_0620.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0621.nii.gz",
+            "label": "./labelsTr/mela_0621.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0622.nii.gz",
+            "label": "./labelsTr/mela_0622.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0623.nii.gz",
+            "label": "./labelsTr/mela_0623.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0624.nii.gz",
+            "label": "./labelsTr/mela_0624.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0625.nii.gz",
+            "label": "./labelsTr/mela_0625.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0626.nii.gz",
+            "label": "./labelsTr/mela_0626.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0627.nii.gz",
+            "label": "./labelsTr/mela_0627.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0628.nii.gz",
+            "label": "./labelsTr/mela_0628.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0629.nii.gz",
+            "label": "./labelsTr/mela_0629.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0630.nii.gz",
+            "label": "./labelsTr/mela_0630.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0631.nii.gz",
+            "label": "./labelsTr/mela_0631.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0632.nii.gz",
+            "label": "./labelsTr/mela_0632.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0633.nii.gz",
+            "label": "./labelsTr/mela_0633.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0634.nii.gz",
+            "label": "./labelsTr/mela_0634.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0635.nii.gz",
+            "label": "./labelsTr/mela_0635.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0636.nii.gz",
+            "label": "./labelsTr/mela_0636.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0637.nii.gz",
+            "label": "./labelsTr/mela_0637.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0638.nii.gz",
+            "label": "./labelsTr/mela_0638.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0639.nii.gz",
+            "label": "./labelsTr/mela_0639.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0640.nii.gz",
+            "label": "./labelsTr/mela_0640.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0641.nii.gz",
+            "label": "./labelsTr/mela_0641.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0642.nii.gz",
+            "label": "./labelsTr/mela_0642.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0643.nii.gz",
+            "label": "./labelsTr/mela_0643.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0644.nii.gz",
+            "label": "./labelsTr/mela_0644.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0645.nii.gz",
+            "label": "./labelsTr/mela_0645.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0646.nii.gz",
+            "label": "./labelsTr/mela_0646.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0647.nii.gz",
+            "label": "./labelsTr/mela_0647.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0648.nii.gz",
+            "label": "./labelsTr/mela_0648.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0649.nii.gz",
+            "label": "./labelsTr/mela_0649.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0650.nii.gz",
+            "label": "./labelsTr/mela_0650.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0651.nii.gz",
+            "label": "./labelsTr/mela_0651.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0652.nii.gz",
+            "label": "./labelsTr/mela_0652.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0653.nii.gz",
+            "label": "./labelsTr/mela_0653.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0654.nii.gz",
+            "label": "./labelsTr/mela_0654.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0655.nii.gz",
+            "label": "./labelsTr/mela_0655.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0656.nii.gz",
+            "label": "./labelsTr/mela_0656.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0657.nii.gz",
+            "label": "./labelsTr/mela_0657.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0658.nii.gz",
+            "label": "./labelsTr/mela_0658.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0659.nii.gz",
+            "label": "./labelsTr/mela_0659.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0660.nii.gz",
+            "label": "./labelsTr/mela_0660.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0661.nii.gz",
+            "label": "./labelsTr/mela_0661.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0662.nii.gz",
+            "label": "./labelsTr/mela_0662.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0663.nii.gz",
+            "label": "./labelsTr/mela_0663.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0664.nii.gz",
+            "label": "./labelsTr/mela_0664.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0665.nii.gz",
+            "label": "./labelsTr/mela_0665.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0666.nii.gz",
+            "label": "./labelsTr/mela_0666.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0667.nii.gz",
+            "label": "./labelsTr/mela_0667.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0668.nii.gz",
+            "label": "./labelsTr/mela_0668.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0669.nii.gz",
+            "label": "./labelsTr/mela_0669.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0670.nii.gz",
+            "label": "./labelsTr/mela_0670.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0671.nii.gz",
+            "label": "./labelsTr/mela_0671.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0672.nii.gz",
+            "label": "./labelsTr/mela_0672.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0673.nii.gz",
+            "label": "./labelsTr/mela_0673.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0674.nii.gz",
+            "label": "./labelsTr/mela_0674.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0675.nii.gz",
+            "label": "./labelsTr/mela_0675.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0676.nii.gz",
+            "label": "./labelsTr/mela_0676.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0677.nii.gz",
+            "label": "./labelsTr/mela_0677.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0678.nii.gz",
+            "label": "./labelsTr/mela_0678.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0679.nii.gz",
+            "label": "./labelsTr/mela_0679.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0680.nii.gz",
+            "label": "./labelsTr/mela_0680.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0681.nii.gz",
+            "label": "./labelsTr/mela_0681.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0682.nii.gz",
+            "label": "./labelsTr/mela_0682.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0683.nii.gz",
+            "label": "./labelsTr/mela_0683.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0684.nii.gz",
+            "label": "./labelsTr/mela_0684.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0685.nii.gz",
+            "label": "./labelsTr/mela_0685.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0686.nii.gz",
+            "label": "./labelsTr/mela_0686.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0687.nii.gz",
+            "label": "./labelsTr/mela_0687.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0688.nii.gz",
+            "label": "./labelsTr/mela_0688.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0689.nii.gz",
+            "label": "./labelsTr/mela_0689.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0690.nii.gz",
+            "label": "./labelsTr/mela_0690.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0691.nii.gz",
+            "label": "./labelsTr/mela_0691.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0692.nii.gz",
+            "label": "./labelsTr/mela_0692.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0693.nii.gz",
+            "label": "./labelsTr/mela_0693.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0694.nii.gz",
+            "label": "./labelsTr/mela_0694.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0695.nii.gz",
+            "label": "./labelsTr/mela_0695.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0696.nii.gz",
+            "label": "./labelsTr/mela_0696.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0697.nii.gz",
+            "label": "./labelsTr/mela_0697.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0698.nii.gz",
+            "label": "./labelsTr/mela_0698.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0699.nii.gz",
+            "label": "./labelsTr/mela_0699.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0700.nii.gz",
+            "label": "./labelsTr/mela_0700.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0701.nii.gz",
+            "label": "./labelsTr/mela_0701.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0702.nii.gz",
+            "label": "./labelsTr/mela_0702.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0703.nii.gz",
+            "label": "./labelsTr/mela_0703.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0704.nii.gz",
+            "label": "./labelsTr/mela_0704.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0705.nii.gz",
+            "label": "./labelsTr/mela_0705.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0706.nii.gz",
+            "label": "./labelsTr/mela_0706.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0707.nii.gz",
+            "label": "./labelsTr/mela_0707.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0708.nii.gz",
+            "label": "./labelsTr/mela_0708.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0709.nii.gz",
+            "label": "./labelsTr/mela_0709.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0710.nii.gz",
+            "label": "./labelsTr/mela_0710.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0711.nii.gz",
+            "label": "./labelsTr/mela_0711.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0712.nii.gz",
+            "label": "./labelsTr/mela_0712.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0713.nii.gz",
+            "label": "./labelsTr/mela_0713.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0714.nii.gz",
+            "label": "./labelsTr/mela_0714.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0715.nii.gz",
+            "label": "./labelsTr/mela_0715.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0716.nii.gz",
+            "label": "./labelsTr/mela_0716.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0717.nii.gz",
+            "label": "./labelsTr/mela_0717.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0718.nii.gz",
+            "label": "./labelsTr/mela_0718.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0719.nii.gz",
+            "label": "./labelsTr/mela_0719.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0720.nii.gz",
+            "label": "./labelsTr/mela_0720.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0721.nii.gz",
+            "label": "./labelsTr/mela_0721.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0722.nii.gz",
+            "label": "./labelsTr/mela_0722.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0723.nii.gz",
+            "label": "./labelsTr/mela_0723.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0724.nii.gz",
+            "label": "./labelsTr/mela_0724.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0725.nii.gz",
+            "label": "./labelsTr/mela_0725.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0726.nii.gz",
+            "label": "./labelsTr/mela_0726.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0727.nii.gz",
+            "label": "./labelsTr/mela_0727.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0728.nii.gz",
+            "label": "./labelsTr/mela_0728.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0729.nii.gz",
+            "label": "./labelsTr/mela_0729.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0730.nii.gz",
+            "label": "./labelsTr/mela_0730.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0731.nii.gz",
+            "label": "./labelsTr/mela_0731.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0732.nii.gz",
+            "label": "./labelsTr/mela_0732.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0733.nii.gz",
+            "label": "./labelsTr/mela_0733.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0734.nii.gz",
+            "label": "./labelsTr/mela_0734.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0735.nii.gz",
+            "label": "./labelsTr/mela_0735.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0736.nii.gz",
+            "label": "./labelsTr/mela_0736.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0737.nii.gz",
+            "label": "./labelsTr/mela_0737.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0738.nii.gz",
+            "label": "./labelsTr/mela_0738.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0739.nii.gz",
+            "label": "./labelsTr/mela_0739.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0740.nii.gz",
+            "label": "./labelsTr/mela_0740.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0741.nii.gz",
+            "label": "./labelsTr/mela_0741.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0742.nii.gz",
+            "label": "./labelsTr/mela_0742.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0743.nii.gz",
+            "label": "./labelsTr/mela_0743.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0744.nii.gz",
+            "label": "./labelsTr/mela_0744.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0745.nii.gz",
+            "label": "./labelsTr/mela_0745.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0746.nii.gz",
+            "label": "./labelsTr/mela_0746.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0747.nii.gz",
+            "label": "./labelsTr/mela_0747.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0748.nii.gz",
+            "label": "./labelsTr/mela_0748.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0749.nii.gz",
+            "label": "./labelsTr/mela_0749.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0750.nii.gz",
+            "label": "./labelsTr/mela_0750.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0751.nii.gz",
+            "label": "./labelsTr/mela_0751.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0752.nii.gz",
+            "label": "./labelsTr/mela_0752.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0753.nii.gz",
+            "label": "./labelsTr/mela_0753.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0754.nii.gz",
+            "label": "./labelsTr/mela_0754.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0755.nii.gz",
+            "label": "./labelsTr/mela_0755.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0756.nii.gz",
+            "label": "./labelsTr/mela_0756.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0757.nii.gz",
+            "label": "./labelsTr/mela_0757.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0758.nii.gz",
+            "label": "./labelsTr/mela_0758.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0759.nii.gz",
+            "label": "./labelsTr/mela_0759.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0760.nii.gz",
+            "label": "./labelsTr/mela_0760.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0761.nii.gz",
+            "label": "./labelsTr/mela_0761.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0762.nii.gz",
+            "label": "./labelsTr/mela_0762.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0763.nii.gz",
+            "label": "./labelsTr/mela_0763.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0764.nii.gz",
+            "label": "./labelsTr/mela_0764.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0765.nii.gz",
+            "label": "./labelsTr/mela_0765.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0766.nii.gz",
+            "label": "./labelsTr/mela_0766.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0767.nii.gz",
+            "label": "./labelsTr/mela_0767.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0768.nii.gz",
+            "label": "./labelsTr/mela_0768.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0769.nii.gz",
+            "label": "./labelsTr/mela_0769.nii.gz"
+        },
+        {
+            "image": "./imagesTr/mela_0770.nii.gz",
+            "label": "./labelsTr/mela_0770.nii.gz"
+        }
+    ]
+}
