@@ -3,7 +3,7 @@
 
 </div>
 
-This work presents **FreeTumor**, a simple baseline for scaling up tumor segmentation datasets via large-scale tumor synthesis. FreeTumor is versatile and applicable to a variety of tumors/lesions, currently supporting liver tumors, pancreas tumors, kidney tumors, and COVID-19. The paper, models, and more details will be available when they are available.
+This work presents **FreeTumor**, a simple baseline for scaling up tumor segmentation datasets via large-scale tumor synthesis. FreeTumor is versatile and applicable to a variety of tumors/lesions, currently supporting liver tumors, pancreas tumors, kidney tumors, and COVID-19. The paper, datasets, and more details will be available when they are available.
 
 
 ## Datasets
