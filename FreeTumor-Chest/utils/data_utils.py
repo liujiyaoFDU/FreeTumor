@@ -100,12 +100,6 @@ stoic21_json = "./jsons/stoic21.json"
 stoic21_list = load_decathlon_datalist(stoic21_json, True, "training", base_dir=stoic21_dir)
 stoic21_cache_dir = cache_root + 'stoic21/'
 
-Lung_dir = root + 'Dataset006_Lung/'
-Lung_json = "./jsons/dataset_MSD_Lung.json"
-Lung_train_list = load_decathlon_datalist(Lung_json, True, "training", base_dir=Lung_dir)
-Lung_val_list = load_decathlon_datalist(Lung_json, True, "validation", base_dir=Lung_dir)
-Lung_cache_dir = cache_root + 'Dataset006_Lung/'
-
 LIDC_dir = root + 'LIDC/'
 LIDC_json = "./jsons/LIDC.json"
 LIDC_list = load_decathlon_datalist(LIDC_json, True, "training", base_dir=LIDC_dir)
