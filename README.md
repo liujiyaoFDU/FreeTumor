@@ -56,7 +56,7 @@ The path of datasets should be organized as:
 First, you need to train a baseline segmentation model as the discriminator for synthesis training (or you can download ours). The baseline segmentation model is placed in './baseline/'
 ```
 ├── baseline
-    ├── model_baseline_segmentor.pt
+    ├── model_baseline_segmentor.pt # for abdomen 7 output channels as above
     └── model_covid_voco160k.pt
 ```
 
