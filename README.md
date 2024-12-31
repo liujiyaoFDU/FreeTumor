@@ -86,7 +86,7 @@ After synthesis training, we use the generative model for tumor synthesis during
 - **baseline_seg_dir**: the path to the baseline segmentation model, serving for tumor quality control in segmentation training.
 - **TGAN_checkpoint**: the path to the generative model.
 
-We initially provide a baseline segmentation model and a generative model (trained on 1.6K abdomen data). You can download them [here](https://huggingface.co/Luffy503/FreeTumor).
+We initially provide a baseline segmentation model and a generative model (trained on 1.6K abdomen data as follows). You can download them [here](https://huggingface.co/Luffy503/FreeTumor).
 
 ```
 ├── /data/FreeTumor
@@ -126,7 +126,7 @@ This work is highly inspired by series of [pioneering works](https://github.com/
 
 ## Citation
 
-Our preliminary version is on [arxiv](https://arxiv.org/abs/2406.01264), while the results are different from this repo. If you find our codes or datasets useful, please consider to leave a star and cite our paper as follows, we would be highly grateful (^o^)/.
+Our preliminary version is on [arxiv](https://arxiv.org/abs/2406.01264), while the results are different from this repo. If you find our codes or datasets useful, please consider to leave a star and cite our paper as follows, we would be highly grateful (^o^)/. In addition, some previous papers that contributed to our work are listed for reference.
 
 ```bibtex
 @article{wu2024freetumor,
@@ -139,6 +139,20 @@ Our preliminary version is on [arxiv](https://arxiv.org/abs/2406.01264), while t
   title={Large-Scale 3D Medical Image Pre-training with Geometric Context Priors},
   author={Wu, Linshan and Zhuang, Jiaxin and Chen, Hao},
   journal={arXiv preprint arXiv:2410.09890},
+  year={2024}
+}
+@inproceedings{hu2023label,
+  title={Label-free liver tumor segmentation},
+  author={Hu, Qixin and Chen, Yixiong and Xiao, Junfei and Sun, Shuwen and Chen, Jieneng and Yuille, Alan L and Zhou, Zongwei},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7422--7432},
+  year={2023}
+}
+@inproceedings{chen2024towards,
+  title={Towards generalizable tumor synthesis},
+  author={Chen, Qi and Chen, Xiaoxi and Song, Haorui and Xiong, Zhiwei and Yuille, Alan and Wei, Chen and Zhou, Zongwei},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={11147--11158},
   year={2024}
 }
 ```
