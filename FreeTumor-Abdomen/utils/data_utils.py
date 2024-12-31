@@ -229,15 +229,7 @@ def get_loader_lits(args):
         [lits_append_train_ds,
          unlabeled_ds
          ])
-
-    # if args.onlysyn:
-    #     train_ds = unlabeled_ds
-    #     # if only_syn, all labeled data for validation !!!!
-    #     lits_val_ds = ConcatDataset(
-    #         [lits_train_ds,
-    #          lits_val_ds
-    #          ])
-
+    
     if args.task == 'onlylabeled':
         train_ds = lits_train_ds
 
@@ -292,14 +284,6 @@ def get_loader_pancreas(args):
          unlabeled_ds
          ])
 
-    # if args.onlysyn:
-    #     train_ds = unlabeled_ds
-    #     # if only_syn, all labeled data for validation !!!!
-    #     panc_val_ds = ConcatDataset(
-    #         [panc_train_ds,
-    #          panc_val_ds
-    #          ])
-
     if args.task == 'onlylabeled':
         train_ds = panc_train_ds
 
@@ -353,14 +337,6 @@ def get_loader_kits(args):
         [kits_append_train_ds,
          unlabeled_ds
          ])
-
-    # if args.onlysyn:
-    #     train_ds = unlabeled_ds
-    #     # if only_syn, all labeled data for validation !!!!
-    #     kits_val_ds = ConcatDataset(
-    #         [kits_train_ds,
-    #          kits_val_ds
-    #          ])
 
     if args.task == 'onlylabeled':
         train_ds = kits_train_ds
