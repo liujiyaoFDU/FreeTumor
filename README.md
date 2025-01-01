@@ -29,6 +29,8 @@ The path of datasets should be organized as:
 ```
 ├── /data/FreeTumor
     ├── Dataset003_Liver
+        ├──imagesTr
+        └──labelsTr
     ├── Dataset007_Pancreas
     ├── Dataset220_KiTS2023
     ├── Covid19_20
