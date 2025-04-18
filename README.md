@@ -133,11 +133,11 @@ Our preliminary version is on [arxiv](https://arxiv.org/abs/2406.01264), while t
 In addition, some previous papers that contributed to our work are listed for reference.
 
 ```bibtex
-@article{wu2024freetumor,
-  title={FreeTumor: Advance Tumor Segmentation via Large-Scale Tumor Synthesis},
-  author={Wu, Linshan and Zhuang, Jiaxin and Ni, Xuefeng and Chen, Hao},
-  journal={arXiv preprint arXiv:2406.01264},
-  year={2024}
+@article{wu2025freetumor,
+  title={FreeTumor: Large-Scale Generative Tumor Synthesis in Computed Tomography Images for Improving Tumor Recognition},
+  author={Wu, Linshan and Zhuang, Jiaxin and Zhou, Yanning and He, Sunan and Ma, Jiabo and Luo, Luyang and Wang, Xi and Ni, Xuefeng and Zhong, Xiaoling and Wu, Mingxiang and others},
+  journal={arXiv preprint arXiv:2502.18519},
+  year={2025}
 }
 @article{wu2024large,
   title={Large-Scale 3D Medical Image Pre-training with Geometric Context Priors},
