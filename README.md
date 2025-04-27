@@ -124,7 +124,7 @@ For validation and testing of segmentation, please check our previous work [Larg
 
  **NOTE THAT** we are not the authors of these datasets. Although all these datasets are publicly available for academic research, you need to cite the original works as shown in our paper. 
  
-This work is highly inspired by series of [pioneering works](https://github.com/MrGiovanni/SyntheticTumors) led by Prof. Zongwei Zhou. **We highly appreciate their great efforts.**
+%This work is highly inspired by series of [pioneering works](https://github.com/MrGiovanni/SyntheticTumors) led by Prof. Zongwei Zhou. **We highly appreciate their great efforts.**
 
 ## Citation
 
