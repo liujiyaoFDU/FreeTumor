@@ -7,7 +7,7 @@ This repo present the evaluation codes, models and results of FreeTumor on sever
 
 For the training codes, it is the same as the [FreeTumor-Abdomen](https://github.com/Luffy03/FreeTumor/tree/main/FreeTumor-Abdomen) repo, and the training implementation can be found in [README](https://github.com/Luffy03/FreeTumor). 
 
-**Note that for FLARE25, we train one model for all three abdomen tumor types, i.e., liver, pancreas, and kidney tumors. For KiTS, we train on only kidney tumors.**
+**Note that for FLARE25 pan-cancer dataset, we train one model for all three abdomen tumor types, i.e., liver, pancreas, and kidney tumors. For KiTS, we train on only kidney tumors.**
 
 ## Evaluation
 
