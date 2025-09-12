@@ -5,7 +5,7 @@
 
 This work presents **FreeTumor**, a GAI method for scaling up tumor segmentation datasets via large-scale tumor synthesis. FreeTumor is versatile and applicable to a variety of tumors/lesions, currently supporting liver tumors, pancreas tumors, kidney tumors, lung tumors, and COVID-19.
 
-Our models can be downloaded from [link](https://huggingface.co/Luffy503/FreeTumor). The datasets are available at [link](https://huggingface.co/datasets/Luffy503/VoCo_Downstream), and processed labels can be found at [link](https://huggingface.co/datasets/Luffy503/FreeTumor).
+**Our models can be downloaded from [link](https://huggingface.co/Luffy503/FreeTumor). The datasets are available at [link](https://huggingface.co/datasets/Luffy503/VoCo_Downstream), and processed labels can be found at [link](https://huggingface.co/datasets/Luffy503/FreeTumor).**
 
 ## Datasets
 
