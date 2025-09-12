@@ -1,5 +1,5 @@
 <div align="center">
-<h1>FreeTumor: Synthesize and Segment Tumors at Scale</h1>
+<h1>FreeTumor: Large-Scale Generative Tumor Synthesis in Computed Tomography Images for Improving Tumor Recognition</h1>
 
 </div>
 
