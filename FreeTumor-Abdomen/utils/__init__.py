@@ -11,6 +11,9 @@ def get_loader(args):
     elif args.data == 'kits':
         return get_loader_kits(args)
 
+    elif args.data == 'all':
+        return get_loader_all(args)
+
     elif args.data == 'syn':
         return get_loader_for_syn(args)
 

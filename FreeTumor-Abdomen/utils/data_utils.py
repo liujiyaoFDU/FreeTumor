@@ -88,14 +88,6 @@ atlas_dir = root + 'Dataset224_AbdomenAtlas1.0/'
 atlas_json = "./jsons/atlas.json"
 atlas_list = load_decathlon_datalist(atlas_json, True, "training", base_dir=atlas_dir)
 
-MELA_dir = root + 'MELA/'
-MELA_json = "./jsons/MELA.json"
-MELA_list = load_decathlon_datalist(MELA_json, True, "training", base_dir=MELA_dir)
-
-IRCADb_dir = root + '3Dircadb1_convert/'
-IRCADb_json = "./jsons/3D-IRCADb.json"
-IRCADb_list = load_decathlon_datalist(IRCADb_json, True, "training", base_dir=IRCADb_dir)
-
 
 def get_abdomen_ds(args, filter_labels=None):
     base_trans, random_trans = get_trans(args)
@@ -160,14 +152,6 @@ def get_abdomen_ds(args, filter_labels=None):
                                          pickle_protocol=pickle.HIGHEST_PROTOCOL,
                                          cache_dir=cache_dir)
 
-        MELA_ds = PersistentDataset(data=MELA_list,
-                                      transform=abdomen_transform,
-                                      pickle_protocol=pickle.HIGHEST_PROTOCOL,
-                                      cache_dir=cache_dir)
-        IRCADb_ds = PersistentDataset(data=IRCADb_list,
-                                     transform=abdomen_transform,
-                                     pickle_protocol=pickle.HIGHEST_PROTOCOL,
-                                     cache_dir=cache_dir)
     else:
         BTCV_ds = data.Dataset(data=BTCV_list, transform=abdomen_transform)
         flare_ds = data.Dataset(data=flare_list,transform=abdomen_transform)
@@ -181,20 +165,16 @@ def get_abdomen_ds(args, filter_labels=None):
         spleen_ds = data.Dataset(data=spleen_list,transform=abdomen_transform)
         colon_ds = data.Dataset(data=colon_list,transform=abdomen_transform)
         atlas_ds = data.Dataset(data=atlas_list,transform=abdomen_transform)
-        MELA_ds = data.Dataset(data=MELA_list,transform=abdomen_transform)
-        IRCADb_ds = data.Dataset(data=IRCADb_list, transform=abdomen_transform)
 
     unlabeled_ds = ConcatDataset(
         [
          BTCV_ds, flare_ds, Amos_ds, WORD_ds,
          flare23_ds,
-         IRCADb_ds,
          chaos_ds, TCIA_PANC_ds,
          spleen_ds, colon_ds,
          PANORAMA_ds,
          abdomen1k_ds,
          atlas_ds,
-         MELA_ds,
          ])
     return unlabeled_ds
 
@@ -360,6 +340,64 @@ def get_loader_kits(args):
 
     return loader
 
+
+def get_loader_all(args):
+    base_trans, random_trans = get_trans(args)
+
+    lits_train_trans = base_trans + [Filter_LITS_alltraining_Labels(keys='label')] + random_trans
+    lits_val_trans = base_trans + [Filter_LITS_alltraining_Labels(keys='label')]
+
+    panc_train_trans = base_trans + [Filter_PANC_alltraining_Labels(keys='label')] + random_trans
+    panc_val_trans = base_trans + [Filter_PANC_alltraining_Labels(keys='label')]
+
+    kits_train_trans = base_trans + [Filter_KiTs_Labels(keys="label"),
+                                     Filter_KITS_alltraining_Labels(keys='label')] + random_trans
+    kits_val_trans = base_trans + [Filter_KiTs_Labels(keys="label"), Filter_KITS_alltraining_Labels(keys='label')]
+
+    lits_train_ds = PersistentDataset(data=lits_train_list, transform=lits_train_trans,
+                                      pickle_protocol=pickle.HIGHEST_PROTOCOL,
+                                      cache_dir=lits_cache_dir)
+    lits_val_ds = PersistentDataset(data=lits_val_list, transform=lits_val_trans,
+                                    pickle_protocol=pickle.HIGHEST_PROTOCOL,
+                                    cache_dir=lits_cache_dir)
+
+    panc_train_ds = PersistentDataset(data=panc_train_list, transform=panc_train_trans,
+                                      pickle_protocol=pickle.HIGHEST_PROTOCOL,
+                                      cache_dir=panc_cache_dir)
+    panc_val_ds = PersistentDataset(data=panc_val_list,
+                                    transform=panc_val_trans,
+                                    pickle_protocol=pickle.HIGHEST_PROTOCOL,
+                                    cache_dir=panc_cache_dir)
+
+    kits_train_ds = PersistentDataset(data=kits_train_list, transform=kits_train_trans,
+                                      pickle_protocol=pickle.HIGHEST_PROTOCOL,
+                                      cache_dir=kits_cache_dir)
+    kits_val_ds = PersistentDataset(data=kits_val_list,
+                                    transform=kits_val_trans,
+                                    pickle_protocol=pickle.HIGHEST_PROTOCOL,
+                                    cache_dir=kits_cache_dir)
+
+    print('use persistent')
+
+    train_ds = ConcatDataset([lits_train_ds, lits_train_ds, lits_train_ds, lits_train_ds, panc_train_ds, panc_train_ds, kits_train_ds])
+    train_sampler = Sampler(train_ds) if args.distributed else None
+    train_loader = data.DataLoader(
+        train_ds,
+        batch_size=args.batch_size,
+        shuffle=(train_sampler is None),
+        num_workers=args.workers,
+        sampler=train_sampler,
+        pin_memory=True,
+    )
+
+    val_ds = ConcatDataset([lits_val_ds, panc_val_ds, kits_val_ds])
+    val_sampler = Sampler(val_ds, shuffle=False) if args.distributed else None
+    val_loader = data.DataLoader(
+        val_ds, batch_size=1, shuffle=False, num_workers=args.workers, sampler=val_sampler, pin_memory=False
+    )
+    loader = [train_loader, val_loader]
+
+    return loader
 
 def get_loader_for_syn(args):
     base_trans, random_trans = get_trans(args)
