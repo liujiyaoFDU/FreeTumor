@@ -91,7 +91,7 @@ Notably, currently we provide codes to train a generalist model, which can synth
 
 ## Acknowledgement
  
-This work is highly inspired by series of [pioneering works](https://github.com/MrGiovanni/SyntheticTumors) led by Prof. [Zongwei Zhou](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en). **We highly appreciate their great efforts.**
+**This work is highly inspired by series of [pioneering works](https://github.com/MrGiovanni/SyntheticTumors) led by Prof. [Zongwei Zhou](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en). We highly appreciate their great efforts.**
 
 ## Citation
 
