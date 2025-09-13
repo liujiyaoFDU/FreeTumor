@@ -48,7 +48,19 @@ The path of datasets should be organized as:
         ├──imagesTr
         └──labelsTr
     ├── Dataset007_Pancreas
-    └── ...
+    ├── Dataset220_KiTS2023
+    ├── BTCV
+    ├── Flare22
+    ├── Amos2022
+    ├── WORD
+    ├── Flare23
+    ├── PANORAMA
+    ├── AbdomenCT-1K
+    ├── CHAOS
+    ├── Dataset082_TCIA_Pancreas-CT
+    ├── Dataset009_Spleen
+    ├── Dataset010_Colon
+    └── Dataset224_AbdomenAtlas1.0
 ```
 
 ### Implementations
