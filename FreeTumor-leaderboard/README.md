@@ -9,6 +9,8 @@ For the training codes, it is the same as the [FreeTumor-Abdomen](https://github
 
 **Note that for FLARE25 pan-cancer dataset, we train one model for all three abdomen tumor types, i.e., liver, pancreas, and kidney tumors. For KiTS, we train on only kidney tumors.**
 
+All the pre-processing and training parameters have been predefined, you can reproduce our work without any modification.
+
 ## Evaluation
 
 To evaluate our models, please download the following checkpoints. We also provide the prediction results for reference.
