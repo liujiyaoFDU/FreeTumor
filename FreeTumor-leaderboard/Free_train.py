@@ -44,7 +44,6 @@ parser.add_argument("--logdir", default="runs/logs", type=str, help="directory t
 parser.add_argument(
     "--baseline_seg_dir", default="./baseline/model_baseline_segmentor.pt", type=str, help="baseline segmentor"
 )
-parser.add_argument("--use_ssl_pretrained", default=False, help="don't use it for leaderboard tasks")
 parser.add_argument("--data", default="lits", type=str, help="data name")
 parser.add_argument("--out_channels", default=7, type=int, help="number of output channels")
 parser.add_argument(
@@ -159,14 +158,6 @@ def main_worker(gpu, args):
         use_checkpoint=args.use_checkpoint,
         use_v2=True
     )
-
-    if args.use_ssl_pretrained:
-        pretrained_path = './pretrained/VoCo_B_SSL_head.pt'
-        model_dict = torch.load(pretrained_path, map_location=torch.device('cpu'))
-        model = load(model, model_dict)
-        print("Using VoCo pretrained backbone weights !!!!!!!")
-
-    dice_loss = DiceCELoss(include_background=False, to_onehot_y=True, softmax=True)
 
     post_label = AsDiscrete(to_onehot=args.out_channels)
     post_pred = AsDiscrete(argmax=True, to_onehot=args.out_channels)
