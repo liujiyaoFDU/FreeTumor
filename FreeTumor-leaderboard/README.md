@@ -9,7 +9,7 @@ For the training codes, it is the same as the [FreeTumor-Abdomen](https://github
 
 **Note that for FLARE25 and FLARE23 pan-cancer dataset, we train one model for all three abdomen tumor types, i.e., liver, pancreas, and kidney tumors. For KiTS, we train on only kidney tumors.**
 
-All the pre-processing and training parameters have been predefined, you can reproduce our work without any modification.
+**All the pre-processing and training parameters have been predefined, you can reproduce our work without any modification.**
 
 ## Evaluation
 
@@ -24,8 +24,10 @@ To evaluate our models, please download the following checkpoints. We also provi
 
 To evaluate on the dataset, you can easily run [evaluate.py](./evaluate.py) as follows:
 ```
-python evaluate.py --test_data_path $YOUR_PATH_TO_DATA --save_prediction_path $YOUR_PATH_TO_SAVE_PREDICTION --trained_pth $YOUR_PATH_TO_CHECKPOINT
+python evaluate.py --test_data_path $YOUR_PATH_TO_DATA --save_prediction_path $YOUR_PATH_TO_SAVE_PREDICTION --trained_pth $YOUR_PATH_TO_CHECKPOINT ----out_channels 7
 ```
+
+If you are testing FLARE, set $out_channels as 7, else 3 for KiTS.
 
 ## Training
 
