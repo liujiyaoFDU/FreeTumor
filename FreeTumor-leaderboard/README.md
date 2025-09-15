@@ -1,9 +1,9 @@
 <div align="center">
-<h1>FreeTumor's performance on public leaderboard</h1>
+<h1>FreeTumor's performance on public leaderboards</h1>
 
 </div>
 
-This repo present the evaluation codes, models and results of FreeTumor on several public leaderboard, i.e., [FLARE25](https://www.codabench.org/competitions/7149/\#/results-tab), [FLARE23](https://codalab.lisn.upsaclay.fr/competitions/12239\#results), and [KiTS](https://kits19.grand-challenge.org/evaluation/challenge/leaderboard/). 
+This repo present the evaluation codes, models and results of FreeTumor on several public leaderboards, i.e., [FLARE25](https://www.codabench.org/competitions/7149/\#/results-tab), [FLARE23](https://codalab.lisn.upsaclay.fr/competitions/12239\#results), and [KiTS](https://kits19.grand-challenge.org/evaluation/challenge/leaderboard/). 
 
 For the training codes, it is the same as the [FreeTumor-Abdomen](https://github.com/Luffy03/FreeTumor/tree/main/FreeTumor-Abdomen) repo. 
 
