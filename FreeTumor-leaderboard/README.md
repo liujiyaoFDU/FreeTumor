@@ -3,9 +3,7 @@
 
 </div>
 
-This repo present the evaluation codes, models and results of FreeTumor on several public leaderboards, i.e., [FLARE25](https://www.codabench.org/competitions/7149/\#/results-tab), [FLARE23](https://codalab.lisn.upsaclay.fr/competitions/12239\#results), and [KiTS](https://kits19.grand-challenge.org/evaluation/challenge/leaderboard/). 
-
-For the training codes, it is the same as the [FreeTumor-Abdomen](https://github.com/Luffy03/FreeTumor/tree/main/FreeTumor-Abdomen) repo. 
+This repo present the evaluation codes, models and results of FreeTumor on several public leaderboards, i.e., [FLARE25](https://www.codabench.org/competitions/7149/\#/results-tab), [FLARE23](https://codalab.lisn.upsaclay.fr/competitions/12239\#results), and [KiTS](https://kits19.grand-challenge.org/evaluation/challenge/leaderboard/).
 
 **Note that for FLARE25 and FLARE23 pan-cancer dataset, we train one model for all three abdomen tumor types, i.e., liver, pancreas, and kidney tumors. For KiTS, we train on only kidney tumors.**
 
