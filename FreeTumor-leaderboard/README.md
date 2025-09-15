@@ -22,7 +22,7 @@ To evaluate our models, please download the following checkpoints. We also provi
 
 To evaluate on the dataset, you can easily run [evaluate.py](./evaluate.py) as follows:
 ```
-python evaluate.py --test_data_path $YOUR_PATH_TO_DATA --save_prediction_path $YOUR_PATH_TO_SAVE_PREDICTION --trained_pth $YOUR_PATH_TO_CHECKPOINT ----out_channels 7
+python evaluate.py --test_data_path $YOUR_PATH_TO_DATA --save_prediction_path $YOUR_PATH_TO_SAVE_PREDICTION --trained_pth $YOUR_PATH_TO_CHECKPOINT --out_channels 7
 ```
 
 If you are testing FLARE, set $out_channels as 7, else 3 for KiTS.
