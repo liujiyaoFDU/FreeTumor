@@ -60,7 +60,7 @@ parser.add_argument("--pos", default=1, type=int, help="number of positive sampl
 parser.add_argument("--neg", default=1, type=int, help="number of negative sample")
 roi = 96
 parser.add_argument("--save_checkpoint", default=True, help="save checkpoint during training")
-parser.add_argument("--max_epochs", default=100, type=int, help="Flexible, 20 for FreeTumor, 100 for baseline")
+parser.add_argument("--max_epochs", default=100, type=int, help="Flexible")
 parser.add_argument("--warmup_epochs", default=2, type=int, help="number of warmup epochs")
 parser.add_argument("--val_every", default=1, type=int, help="validation frequency")
 
