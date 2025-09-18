@@ -20,6 +20,7 @@ To evaluate our models, please download the following checkpoints. We also provi
 | [FLARE23](https://codalab.lisn.upsaclay.fr/competitions/12239#results)      | [64.9(final)](https://drive.google.com/file/d/1qSswI5GBJFySlL6dOFGi5jHL-GDPiNoW/view?usp=sharing)  |  [Download](https://drive.google.com/file/d/1Qi4Ms4dSyQc0AxemGNKlsaaDAcTaRoaY/view?usp=sharing)   |
 | [KiTS](https://kits19.grand-challenge.org/evaluation/challenge/leaderboard/) | [92.6](https://drive.google.com/file/d/1JBXhQ8136g4sW_qmVoY19CJD_PgMhKN3/view?usp=sharing)         | [Download](https://drive.google.com/file/d/1OtcCleQMLkl52odjqWQsHEOhmAGUhJrf/view?usp=sharing)   |
 
+
 To evaluate on the dataset, you can easily run [evaluate.py](./evaluate.py) as follows:
 ```
 python evaluate.py --test_data_path $YOUR_PATH_TO_DATA --save_prediction_path $YOUR_PATH_TO_SAVE_PREDICTION --trained_pth $YOUR_PATH_TO_CHECKPOINT --out_channels 7
@@ -82,11 +83,9 @@ sh Syn_train.sh
 sh Free_train.sh
 ```
 
-Notably, currently we provide codes to train a generalist model, which can synthesize liver tumors, pancreas tumors, and kidney tumors (output by different channels). If you want to train specialist models for specific types of tumors (e.g., one model for liver tumors and another model for pancreas tumors), you need to check the codes as [here](https://github.com/Luffy03/FreeTumor/blob/main/FreeTumor-Chest/models/TumorGAN.py) and modify the labels as follows:
+To train on only one tumor type (e.g., for kidney tumor), you can simply change Free_train.sh (line 3)
 ```
-0: background
-1: organ
-2: tumor/lesion
+data=kits
 ```
 
 ## Acknowledgement
