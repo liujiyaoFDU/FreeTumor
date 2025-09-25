@@ -1,6 +1,7 @@
 <div align="center">
 <h1>FreeTumor: Large-Scale Generative Tumor Synthesis in Computed Tomography Images for Improving Tumor Recognition</h1>
 
+<a href="https://arxiv.org/abs/2502.18519"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
 </div>
 
 This work presents **FreeTumor**, a GAI method for scaling up tumor segmentation datasets via large-scale tumor synthesis. FreeTumor is versatile and applicable to a variety of tumors/lesions, currently supporting liver tumors, pancreas tumors, kidney tumors, lung tumors, and COVID-19.
