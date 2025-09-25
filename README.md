@@ -53,7 +53,8 @@ The path of datasets should be organized as:
     ├── 3Dircadb1_convert
     ├── TCIAcovid19
     ├── stoic21
-    └── LIDC
+    ├── LIDC
+    └── ...
 ```
 
 ## Implementations
