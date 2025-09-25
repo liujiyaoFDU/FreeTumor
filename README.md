@@ -106,7 +106,8 @@ We initially provide a baseline segmentation model and a generative model (train
     ├── CHAOS
     ├── Dataset082_TCIA_Pancreas-CT
     ├── Dataset009_Spleen
-    └── Dataset010_Colon
+    ├── Dataset010_Colon
+    └── ...
 ```
 
 **Synthesis visualization**: codes to save offline datasets for visualization can be found under '/Syn_data'. You need to modify the data path and the path to save your results. In addition, you need to make sure the organ labels as:
