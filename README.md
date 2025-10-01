@@ -8,7 +8,7 @@ This work presents **FreeTumor**, a GAI method for scaling up tumor segmentation
 
 **We have released the solutions for leaderboard tasks at [link](./FreeTumor-leaderboard)**.
 
-**Our models can be downloaded from [link](https://huggingface.co/Luffy503/FreeTumor). The datasets are available at [link](https://huggingface.co/datasets/Luffy503/VoCo_Downstream), and processed labels can be found at [link](https://huggingface.co/datasets/Luffy503/FreeTumor). NOTE THAT we are not the authors of these datasets. Although all these datasets are publicly available for academic research, you need to cite the original works as shown in our paper.**
+**Our models can be downloaded from [link](https://huggingface.co/Luffy503/FreeTumor). The datasets are available at [link](https://huggingface.co/datasets/Luffy503/VoCo_Downstream), and processed labels can be found at [link](https://huggingface.co/datasets/Luffy503/FreeTumor). NOTE THAT we are not the authors of these datasets. You need to cite the original works as shown in our paper.**
 
 ## Datasets
 
