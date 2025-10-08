@@ -1,14 +1,16 @@
 <div align="center">
-<h1>FreeTumor: Large-Scale Generative Tumor Synthesis in Computed Tomography Images for Improving Tumor Recognition</h1>
+<h1>[Nature Communications] FreeTumor: Large-Scale Generative Tumor Synthesis in Computed Tomography Images for Improving Tumor Recognition</h1>
 
 <a href="https://arxiv.org/abs/2502.18519"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
 </div>
 
-This work presents **FreeTumor**, a GAI method for scaling up tumor segmentation datasets via large-scale tumor synthesis. FreeTumor is versatile and applicable to a variety of tumors/lesions, currently supporting liver tumors, pancreas tumors, kidney tumors, lung tumors, and COVID-19.
+Tumor is a leading cause of death worldwide, with an estimated 10 million deaths attributed to tumor-related diseases every year. AI-driven tumor recognition unlocks new possibilities for more precise and intelligent tumor screening and diagnosis. However, the progress is heavily hampered by the scarcity of annotated datasets, which demands extensive annotation efforts by radiologists. To tackle this challenge, we introduce **FreeTumor**, an innovative Generative AI (GAI) framework to enable large-scale tumor synthesis for mitigating data scarcity. Specifically, FreeTumor effectively leverages a combination of limited labeled data and large-scale unlabeled data for tumor synthesis training. Unleashing the power of large-scale data, FreeTumor is capable of synthesizing a large number of realistic tumors on images for augmenting training datasets. To validate the fidelity of synthetic tumors, we engaged 13 board-certified radiologists in a Visual Turing Test to discern between synthetic and real tumors. Rigorous clinician evaluation validates the high quality of our synthetic tumors, as they achieved only 51.1% sensitivity and 60.8% accuracy in distinguishing our synthetic tumors from real ones. Through high-quality tumor synthesis, FreeTumor showcases a notable superiority over state-of-the-art AI methods including various synthesis methods and foundation models. These findings indicate promising prospects of FreeTumor in clinical applications, potentially advancing tumor treatments and improving the survival rates of patients.
+
+![teaser](assets/overview.png)
 
 **We have released the solutions for leaderboard tasks at [link](./FreeTumor-leaderboard)**.
 
-**Our models can be downloaded from [link](https://huggingface.co/Luffy503/FreeTumor). The datasets are available at [link](https://huggingface.co/datasets/Luffy503/VoCo_Downstream), and processed labels can be found at [link](https://huggingface.co/datasets/Luffy503/FreeTumor). NOTE THAT we are not the authors of these datasets. You need to cite the original works as shown in our paper.**
+**Our models can be downloaded from [link](https://huggingface.co/Luffy503/FreeTumor). The datasets are available at [link](https://huggingface.co/datasets/Luffy503/VoCo_Downstream), and processed labels can be found at [link](https://huggingface.co/datasets/Luffy503/FreeTumor). NOTE THAT we are not the authors of these datasets. Although all these datasets are publicly available for academic research, you need to cite the original works as shown in our paper.**
 
 ## Datasets
 
