@@ -82,6 +82,7 @@ parser.add_argument("--workers", default=16, type=int, help="number of workers")
 parser.add_argument("--spatial_dims", default=3, type=int, help="spatial dimension of input data")
 parser.add_argument("--use_checkpoint", default=True, help="use gradient checkpointing to save memory")
 parser.add_argument("--rank", default=0, type=int, help="node rank for distributed training")
+parser.add_argument("--seed", default=1, type=int, help="random seed for reproducibility")
 
 
 def get_test_loader(args):
@@ -143,6 +144,15 @@ def get_test_loader(args):
 def main():
     args = parser.parse_args()
 
+    # Set random seed for reproducibility
+    np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
+    torch.cuda.manual_seed_all(args.seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+    print(f"Random seed set to: {args.seed}")
+
     test_loader, test_transforms = get_test_loader(args)
 
     Tgan = TGAN(args).cuda()
@@ -154,8 +164,7 @@ def main():
     Tgan.to(device)
     print('Load trained TumorGAN')
 
-    # enable cuDNN benchmark
-    torch.backends.cudnn.benchmark = True
+    # Note: cuDNN benchmark is disabled for reproducibility (set in main function)
 
     post_img_transforms = Compose([EnsureTyped(keys=["new_img"]),
                                Invertd(keys=["new_img"],
