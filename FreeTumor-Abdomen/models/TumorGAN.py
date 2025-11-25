@@ -35,7 +35,9 @@ class TGAN(nn.Module):
             use_checkpoint=True,
             use_v2=True
         )
-        self.init_netSeg(args)
+
+        # FIXME： 测试的时候不加载，这里原始代码还有bug，注释掉了
+        # self.init_netSeg(args)
 
         # initialize model inference
         inf_size = [args.roi_x, args.roi_y, args.roi_z]
@@ -67,7 +69,7 @@ class TGAN(nn.Module):
             for sigma_b in sigma_bs:
                 texture = get_predefined_texture(predefined_texture_shape, sigma_a, sigma_b)
                 self.textures.append(texture)
-        self.textures = self.textures.tolist()
+        # self.textures = self.textures.tolist() # FIXME
 
         if args.rank == 0 or args.distributed is False:
             print("All predefined texture have generated.")
@@ -75,7 +77,15 @@ class TGAN(nn.Module):
 
     def init_netSeg(self, args):
         try:
-            model_dict = torch.load(args.baseline_seg_dir,
+            # model_dict = torch.load(args.baseline_seg_dir,
+            #                         map_location=torch.device('cpu'))
+
+            # Support both parameter names for compatibility
+            baseline_path = getattr(args, 'baseline_seg_dir', None) or getattr(args, 'pretrained_dir', None)
+            if baseline_path is None:
+                raise ValueError("Neither baseline_seg_dir nor pretrained_dir is provided in args")
+
+            model_dict = torch.load(baseline_path,
                                     map_location=torch.device('cpu'))
             state_dict = model_dict["state_dict"]
 

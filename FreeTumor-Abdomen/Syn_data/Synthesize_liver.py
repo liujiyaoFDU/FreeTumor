@@ -30,6 +30,8 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from monai import data, transforms
 from monai.data import *
+import sys
+sys.path.append("/inspire/hdd/global_user/hejunjun-24017/jiyao/Project/202504_3D生成/20251015_tumor_synthesis/FreeTumor/FreeTumor-Abdomen")
 from models.TumorGAN import *
 
 import resource
@@ -119,7 +121,8 @@ def get_test_loader(args):
         name = item
         print(name)
         test_img_path = os.path.join(args.test_data_path, name)
-        test_label_path = os.path.join(args.test_label_path, name[:-12]+'.nii.gz')
+        # test_label_path = os.path.join(args.test_label_path, name[:-12]+'.nii.gz')
+        test_label_path = os.path.join(args.test_label_path, name) # image和label同名
 
         test_img.append(test_img_path)
         test_label.append(test_label_path)
@@ -212,14 +215,14 @@ def main():
                     post_img_transforms(i)
 
                 os.rename(os.path.join(args.save_img_path, name[:-7] + '_trans.nii.gz'),
-                          os.path.join(args.save_img_path, name[:-7] + '_new_img.nii.gz'))
+                          os.path.join(args.save_img_path, name))
 
                 batch_data['new_lab'] = new_lab
                 for i in decollate_batch(batch_data):
                     post_lab_transforms(i)
 
                 os.rename(os.path.join(args.save_lab_path, name[:-7] + '_trans.nii.gz'),
-                          os.path.join(args.save_lab_path, name[:-7] + '_new_lab.nii.gz'))
+                          os.path.join(args.save_lab_path, name))
 
 
 def get_3D_position(label):
